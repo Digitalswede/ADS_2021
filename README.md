@@ -5,7 +5,7 @@ Name: Björn Appehl
 Student ID: 21087024
 
 <h1> Introduction </h1>
-This is the readers guide for my portfolio created for the Applied Data Science minor at The Hague University of Applied Sciences.
+This is the reader's guide for my portfolio created for the Applied Data Science minor at The Hague University of Applied Sciences.
 Below are the criteria from the scoring matrix with detailed information about each criteria.
 
 <h2> Datacamp </h2>
@@ -34,14 +34,14 @@ Insert that image here (in a dropdown)
   
 
 <details>
-<summary>Reflection on own learning objectives.</summary>
+<summary>Reflection on own learning objectives</summary>
   
 - I learnt'd many objectives
   
 </details>
 
 <details>
-<summary>Evaluation on the group project as a whole.</summary>
+<summary>Evaluation on the group project as a whole</summary>
   
 - Situation:Right from the start, our group contained a lot of different skill sets and this showed during our project. Some were better at writing code, while some had more experience in working with Scrum or other benefitial traits. The cohesion was always quite high in my opinion, and there was never any conflict in the group. Early on, we made it clear what we expect from eachother in terms of punctuality / being late for scheduled meetings, which helped us work more effectively and focus on the important things. 
 
