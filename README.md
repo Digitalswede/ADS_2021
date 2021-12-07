@@ -9,8 +9,8 @@ This is the readers guide for my portfolio created for the Applied Data Science 
 Below are the criteria from the scoring matrix with detailed information about each criteria.
 
 <h2> Datacamp </h2>
-All datacamp courses except for one were completed. The one that was not completed was "_Time Series Analysis with Python_".
-Outside of the assigned datacamp courses, roughly 1/4 of another course, "_Spoken Language Processing in Python_", was also completed.
+All datacamp courses except for one were completed. The one that was not completed was *Time Series Analysis with Python*.
+Outside of the assigned datacamp courses, roughly 1/4 of another course, *Spoken Language Processing in Python*, was also completed.
 
 Insert that image here (in a dropdown)
 
