@@ -65,16 +65,16 @@ Insert that image here (in a dropdown)
   
 I was mostly working on our datasets when our first drafts of the research paper was created, so as soon as I finished work on the dataset I helped out with the paper. I gave feedback and discussed with the group members (David & Maria) who had created the initial draft about which research questions we should keep, and which questions we should move forward with. Below are some examples of questions that made it, and those that did not:
     
- - How can we detect multiple voices from audio data? 
+ - How can we detect multiple voices from audio data? <br>
 This question was central in the project, since the context for our project consists of defining when conversation is happening. Detecting multiple voices makes the difference between a monologue and an actual conversation and is very important for the end result.
   
- - Which characteristics make a conversation?
+ - Which characteristics make a conversation?<br>
 This question has a lot to do with the one above it. We ultimately decided that a minimum grade of participation from at least two speakers is necessary to constitute a conversation. We had to discuss this with the problem owner several times, as we didn't want to make assumptions ourselves. If we simply regarded any dialogue between people regardless of speech duration per speaker, this could have given different results.
   
- - Can we detect if the dementia patient is speaking on the phone?
+ - Can we detect if the dementia patient is speaking on the phone?<br>
 This questions was considered to be out of scope. There are probably easier ways to determine when an elderly person is using their phone than only listening to them speak, and we wanted to focus on specifically conversation in a physical setting.
 
-- Can we detect if the person speaking is physically present?
+- Can we detect if the person speaking is physically present?<br>
 This question was ultimately decided to be out of scope, but it did come up for discussion a few times. Essentially, a voice being played from a speaker will most likely not have the same range as a human speaking. This makes it possible - in theory, we never got far enough to actually work on it - to determine when a voice is "fake" or "real".
 
 
