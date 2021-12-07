@@ -18,8 +18,8 @@ Insert that image here (in a dropdown)
 <h2> Reflection and evaluation </h2>
 
 <details>
-  <summary> Reflection on own contribution to the project </summary>
-<br>
+<summary> Reflection on own contribution to the project </summary>
+
 - Situation:  Our project group consisted of 6 members, and we worked with audio data to determine whether a audio clip contains conversation or not. We all worked together to ensure everyone would get hands-on experience with every aspect of the project work, although this was hard to realize and in the end some work ended up being unevenly distributed. Since I don't have a great deal of experience writing code, I was a little out of the loop at the end of the project when the code we had for our CNN's became very complex. However, at that point I took on other duties which helped the group as a whole but did give me as much programming experience as some others.
 
 - Action: My tasks in the group varied, early on there was a lot of hands-on with coding simple models. One example is creating a Logistic Regression model that ended up being the first real algorithm we used, since it had the best results at that stage. Later on I started exploring datasets and drew up some requirements and comparisons for the datasets we ended up using. As the groups priorities shifted, I found myself taking on a lot of presentations and other communication duties along with writing the paper, since we had other people who were simply better at crunching code and it became a matter of time in the final stages. I also helped David & Maria who gave the learning lab feedback and suggestions for topics for them to cover, however I didn't end up taking part in presenting our learning lab. 
