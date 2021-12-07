@@ -17,7 +17,8 @@ Insert that image here (in a dropdown)
 
 <h2> Reflection and evaluation </h2>
 
-<details><summary><h3> Reflection on own contribution to the project </h3></summary>
+<details>
+  <summary> Reflection on own contribution to the project </summary>
 <br>
 - Situation:  Our project group consisted of 6 members, and we worked with audio data to determine whether a audio clip contains conversation or not. We all worked together to ensure everyone would get hands-on experience with every aspect of the project work, although this was hard to realize and in the end some work ended up being unevenly distributed. Since I don't have a great deal of experience writing code, I was a little out of the loop at the end of the project when the code we had for our CNN's became very complex. However, at that point I took on other duties which helped the group as a whole but did give me as much programming experience as some others.
 
