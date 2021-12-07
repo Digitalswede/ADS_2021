@@ -1,7 +1,7 @@
 # ADS_2021
 Portfolio for applied data science minor
 
-Name: Björn Appehl
+Name: Björn Appehl <br>
 Student ID: 21087024
 
 <h1> Introduction </h1>
