@@ -76,7 +76,7 @@ This questions was considered to be out of scope. There are probably easier ways
 
 - Can we detect if the person speaking is physically present?<br>
 This question was ultimately decided to be out of scope, but it did come up for discussion a few times. Essentially, a voice being played from a speaker will most likely not have the same range as a human speaking. This makes it possible - in theory, we never got far enough to actually work on it - to determine when a voice is "fake" or "real".
-
+</details>
 
 
 <details>
