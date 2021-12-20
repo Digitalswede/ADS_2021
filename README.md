@@ -15,10 +15,10 @@ Outside of the assigned datacamp courses, roughly 1/4 of another course, *Spoken
 Insert that image here (in a dropdown)
 
 
-<h2> Reflection and evaluation </h2>
+<h2> 1. Reflection and evaluation </h2>
 
 <details>
-<summary> Reflection on own contribution to the project </summary>
+<summary> 1.1 Reflection on own contribution to the project </summary>
 
 - Situation:  Our project group consisted of 6 members, and we worked with audio data to detect conversation for the Smart Teddy Bear project. We all worked together to ensure everyone would get hands-on experience with every aspect of the project work, although this was hard to realize and in the end some work ended up being unevenly distributed. Since I don't have a great deal of experience writing code, I was a little out of the loop at the end of the project when the code we had for our CNN's became more and more complex. However, at that point I took on other duties which helped the group as a whole but did give me as much programming experience as some others.
 
@@ -35,14 +35,14 @@ Insert that image here (in a dropdown)
   
 
 <details>
-<summary>Reflection on own learning objectives</summary>
+<summary> 1.2 Reflection on own learning objectives</summary>
   
 - 
   
 </details>
 
 <details>
-<summary>Evaluation on the group project as a whole</summary>
+<summary> 1.3 Evaluation on the group project as a whole</summary>
   
 - Situation:Right from the start, our group contained a lot of different skill sets and this showed during our project. Some were better at writing code, while some had more experience in working with Scrum or other benefitial traits. The cohesion was always quite high in my opinion, and there was never any conflict in the group. Early on, we made it clear what we expect from eachother in terms of workload (i.e not scheduling project stuff on weekends or after 5pm), punctuality, etc, which helped us work more effectively and better as a group.
 
@@ -59,10 +59,10 @@ Insert that image here (in a dropdown)
 
 
 
-<h2> Research Project </h2>
+<h2> 2. Research Project </h2>
 
 <details>
-<summary>Task Definition</summary>
+<summary> 2.1 Task Definition</summary>
   
 My contribution: I gave feedback and discussed with the group members (David & Maria) who had created the initial draft about which research questions we should keep, and which questions we should move forward with. Here is a link to an early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later on in the project. 
   https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing <br>
@@ -86,7 +86,7 @@ This question was ultimately decided to be out of scope, but it did come up for 
 
 
 <details>
-<summary>Evaluation</summary>
+<summary> 2.2 Evaluation</summary>
 My contribution: For the paper, I gave some ideas for future work with our prototype. I put this in the paper so other group members could also put ideas in, and build off mine if they agree. 
   Here is an early draft of our paper where on page 5, my first ideas for future work are listed: https://drive.google.com/file/d/1_IV_NqUBWdRstXnUaXdXFCy66YA4UpWQ/view?usp=sharing
   
@@ -100,13 +100,13 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
   
 <details>
-<summary>Conclusions</summary>
+<summary> 2.3 Conclusions</summary>
   
 </details>
   
   
 <details>
-<summary>Planning</summary>
+<summary> 2.4 Planning</summary>
  My contribution: I, along with Leander Loomans, were in charge of taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). This included making the notes available for other group members to take part in. On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.<br/>  
     
   A screenshot from Taiga with almost everyone's activity: https://i.imgur.com/Q91fnWq.png
@@ -118,3 +118,97 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
   
 </details>
+
+
+<h2> 3. Predictive Analysis </h2>
+
+<details>
+<summary> 3.1 Selecting a Model</summary>
+  
+</details>
+
+<details>
+<summary> 3.2 Configuring a Model</summary>
+  
+</details>
+
+<details>
+<summary> 3.3 Training a Model</summary>
+  
+</details>
+
+<details>
+<summary> 3.4 Evaluating a Model</summary>
+  
+</details>
+
+<details>
+<summary> 3.5 Visualising the outcome of a model</summary>
+  
+</details>
+
+
+<h2> 4. Data Preprocessing </h2>  
+
+<details>
+<summary> 4.1 Data Exploration</summary>
+  
+</details>
+
+
+<details>
+<summary> 4.2 Data Exploration</summary>
+  
+</details>
+
+
+<details>
+<summary> 4.3 Data Exploration</summary>
+  
+</details>
+
+
+
+
+<h2> 5. Data Preprocessing </h2>  
+
+<details>
+<summary> 5.1 Data Exploration</summary>
+  
+</details>
+
+<details>
+<summary> 5.2 Data Cleansing</summary>
+  
+</details>
+
+<details>
+<summary> 5.3 Data Preparation</summary>
+  
+</details>
+
+<details>
+<summary> 5.4 Data Exploration</summary>
+  
+</details>
+
+<details>
+<summary> 5.5 Data visualisation</summary>
+  
+</details>
+
+<h2> 6. Communication </h2>
+
+
+<details>
+<summary> 6.1 Presentations </summary>
+  
+</details>
+
+
+<details>
+<summary> 6.2 Writing paper </summary>
+  
+</details>
+
+
