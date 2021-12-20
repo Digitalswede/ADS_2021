@@ -29,6 +29,9 @@ Insert that image here (in a dropdown)
 - Result: For the presentations I was a part of, I created a lot of the slides along with the overall layout of the powerpoints. I helped other group members in taking care of the Scrum board on Taiga, and during the period in which I was scrummaster I took care of this mostly single-handedly. The code I wrote early on was a simple logistic regression model that was later converted to take audio data as input, however at that point the model also had to change since RFC gave better accuracy. My work on the dataset helped us get good data quite early on the project, which I see as a great benefit for our neural networks.
 
 - Reflect: The contributions I made to the project gave me a much better understanding of data science as a whole. While I am not ready to explore a career in the field, I have a strong feeling that the techniques and methods used in this minor will be of use to me in a professional setting. I regret not being a bigger part of the learning lab our group gave, since it would have been a good chance to expand my own knowledge in the domain. 
+  
+Here is a link to an early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later.
+  https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing
 </details>
   
   
@@ -36,7 +39,7 @@ Insert that image here (in a dropdown)
 <details>
 <summary>Reflection on own learning objectives</summary>
   
-- I learnt'd many objectives
+- 
   
 </details>
 
