@@ -64,10 +64,12 @@ Insert that image here (in a dropdown)
 <details>
 <summary>Task Definition</summary>
   
-My contribution: I gave feedback and discussed with the group members (David & Maria) who had created the initial draft about which research questions we should keep, and which questions we should move forward with. I was mostly working on our datasets when our first drafts of the research paper was created, so as soon as I finished work on the dataset I helped out with the questions. Below are some examples of questions that made it, and those that did not (along with our reasoning):
+My contribution: I gave feedback and discussed with the group members (David & Maria) who had created the initial draft about which research questions we should keep, and which questions we should move forward with. Here is a link to an early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later on in the project. 
+  https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing <br>
   
-Here is a link to an early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later on in the project.
-  https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing
+  I was mostly working on our datasets when our first drafts of the research paper was created, so as soon as I finished work on the dataset I helped out with the questions. Below are some examples of questions that made it, and those that did not (along with our reasoning):
+  
+
     
  - How can we detect multiple voices from audio data? <br>
 This question was central in the project, since the context for our project consists of defining when conversation is happening. Detecting multiple voices makes the difference between a monologue and an actual conversation and is very important for the end result.
