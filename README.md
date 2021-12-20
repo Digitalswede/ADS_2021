@@ -82,7 +82,7 @@ This question has a lot to do with the one above it. We ultimately decided that 
 This questions was considered to be out of scope. There are probably easier ways to determine when an elderly person is using their phone than only listening to them speak, and we wanted to focus on specifically conversation in a physical setting.
 
 - Can we detect if the person speaking is physically present?<br>
-This question was ultimately decided to be out of scope, but it did come up for discussion a few times. Essentially, a voice being played from a speaker will most likely not have the same range as a human speaking. This makes it possible - in theory, we never got far enough to actually work on it - to determine when a voice is "fake" or "real".
+This question was ultimately decided to be out of scope, but it did come up for discussion a few times. Essentially, a voice being played from a speaker will most likely not have the same range as a human speaking. This makes it possible - in theory, we never got far enough to actually work on it - to determine when a voice is "fake" or "real". This is a suitable area for further research in my opinion, since we never had time to try it out the results would be very interesting.
 </details>
 
 
@@ -96,7 +96,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   - Comparing the accuracy of our speaker differentiation model with human results. This could be done by a study where correspondants listen to short clips of speech and asses whether all clips are said by the same speaker or not. It would be very interesting to see if humans or the model perform better if voices are very similar for instance. Since our research has only measured the accuracy of our model,  a "human" accuracy score would be an interesting metric to consider. 
   Link to this 
   
-  - Since the model for speaker differentation came to be quite complex, it would be interesting to see new research which aims to identify the elderly person's voice. Samples might be collected over a period of time and eventually could be used to compare all detected speech to the patient themselves, instead of always comparing every segment.
+  - Since the model for speaker differentation came to be quite complex, it would be interesting to see new projects which aims to identify the elderly person's voice. Samples might be collected over a period of time and eventually could be used to compare all detected speech to the patient themselves, instead of always comparing every segment.
 </details>
   
   
