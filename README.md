@@ -29,9 +29,7 @@ Insert that image here (in a dropdown)
 - Result: For the presentations I was a part of, I created a lot of the slides along with the overall layout of the powerpoints. I helped other group members in taking care of the Scrum board on Taiga, and during the period in which I was scrummaster I took care of this mostly single-handedly. The code I wrote early on was a simple logistic regression model that was later converted to take audio data as input, however at that point the model also had to change since RFC gave better accuracy. My work on the dataset helped us get good data quite early on the project, which I see as a great benefit for our neural networks.
 
 - Reflect: The contributions I made to the project gave me a much better understanding of data science as a whole. While I am not ready to explore a career in the field, I have a strong feeling that the techniques and methods used in this minor will be of use to me in a professional setting. I regret not being a bigger part of the learning lab our group gave, since it would have been a good chance to expand my own knowledge in the domain. 
-  
-Here is a link to an early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later.
-  https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing
+ 
 </details>
   
   
@@ -67,6 +65,9 @@ Here is a link to an early draft of our paper with the questions still in there,
 <summary>Task Definition</summary>
   
 My contribution: I gave feedback and discussed with the group members (David & Maria) who had created the initial draft about which research questions we should keep, and which questions we should move forward with. I was mostly working on our datasets when our first drafts of the research paper was created, so as soon as I finished work on the dataset I helped out with the questions. Below are some examples of questions that made it, and those that did not (along with our reasoning):
+  
+Here is a link to an early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later on in the project.
+  https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing
     
  - How can we detect multiple voices from audio data? <br>
 This question was central in the project, since the context for our project consists of defining when conversation is happening. Detecting multiple voices makes the difference between a monologue and an actual conversation and is very important for the end result.
@@ -85,7 +86,10 @@ This question was ultimately decided to be out of scope, but it did come up for 
 <details>
 <summary>Evaluation</summary>
 My contribution: For the paper, I gave some ideas for future work with our prototype. A few of them include:
-  - Comparing the accuracy of our speaker differentiation model with human results. This could be done by a study where correspondants listen to short clips of speech and asses whether all clips are said by the same speaker. It would be very interesting to see if humans or the model perform better if voices are very similar for instance.
+  
+  - Comparing the accuracy of our speaker differentiation model with human results. This could be done by a study where correspondants listen to short clips of speech and asses whether all clips are said by the same speaker or not. It would be very interesting to see if humans or the model perform better if voices are very similar for instance. Since our research has only measured the accuracy of our model,  a "human" accuracy score would be an interesting metric to consider. 
+  
+  - Since the model for speaker differentation came to be quite complex, it would be interesting to see new research which aims to identify the elderly person's voice. Samples might be collected over a period of time and eventually could be used to compare all detected speech to the patient themselves, instead of always comparing every segment.
 </details>
   
   
