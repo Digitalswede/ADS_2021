@@ -81,7 +81,8 @@ This question was ultimately decided to be out of scope, but it did come up for 
 
 <details>
 <summary>Evaluation</summary>
-  
+My contribution: For the paper, I gave some ideas for future work with our prototype. A few of them include:
+  - Comparing the accuracy of our speaker differentiation model with human results. This could be done by a study where correspondants listen to short clips of speech and asses whether all clips are said by the same speaker. It would be very interesting to see if humans or the model perform better if voices are very similar for instance.
 </details>
   
   
