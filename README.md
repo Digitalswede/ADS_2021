@@ -85,9 +85,13 @@ This question was ultimately decided to be out of scope, but it did come up for 
 
 <details>
 <summary>Evaluation</summary>
-My contribution: For the paper, I gave some ideas for future work with our prototype. A few of them include:
+My contribution: For the paper, I gave some ideas for future work with our prototype. I put this in the paper so other group members could also put ideas in, and build off mine if they agree. 
+  Here is an early draft of our paper where on page 5, my first ideas for future work are listed: https://drive.google.com/file/d/1_IV_NqUBWdRstXnUaXdXFCy66YA4UpWQ/view?usp=sharing
+  
+  A few of them include:
   
   - Comparing the accuracy of our speaker differentiation model with human results. This could be done by a study where correspondants listen to short clips of speech and asses whether all clips are said by the same speaker or not. It would be very interesting to see if humans or the model perform better if voices are very similar for instance. Since our research has only measured the accuracy of our model,  a "human" accuracy score would be an interesting metric to consider. 
+  Link to this 
   
   - Since the model for speaker differentation came to be quite complex, it would be interesting to see new research which aims to identify the elderly person's voice. Samples might be collected over a period of time and eventually could be used to compare all detected speech to the patient themselves, instead of always comparing every segment.
 </details>
@@ -101,5 +105,9 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
 <details>
 <summary>Planning</summary>
+ My contribution: I, along with Leander Loomans, were in charge of taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). This included making the notes available for other group members to take part in. On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.
+  A screenshot from Taiga with almost everyone's activity: https://i.imgur.com/Q91fnWq.png
+  A screenshot of some of the notes that were taken: https://i.imgur.com/YU2HRXk.png
+  Since not every meeting leads to notes having to be taken, there are some gaps. But in general, it worked well.   
   
 </details>
