@@ -107,12 +107,12 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
 <details>
 <summary>Planning</summary>
- My contribution: I, along with Leander Loomans, were in charge of taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). This included making the notes available for other group members to take part in. On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.<br>
+ My contribution: I, along with Leander Loomans, were in charge of taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). This included making the notes available for other group members to take part in. On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.  
   
   
   A screenshot from Taiga with almost everyone's activity: https://i.imgur.com/Q91fnWq.png
   
-  A screenshot of some of the notes that were taken: https://i.imgur.com/YU2HRXk.png<br>
+  A screenshot of some of the notes that were taken: https://i.imgur.com/YU2HRXk.png  
   
   
   Since not every meeting leads to notes having to be taken, there are some gaps. But in general, it worked well.   
