@@ -5,8 +5,9 @@ Name: Björn Appehl <br>
 Student ID: 21087024
 
 <h1> Introduction </h1>
-This is the reader's guide for my portfolio created for the Applied Data Science minor at The Hague University of Applied Sciences.<br>
-Below are the criteria from the scoring matrix with detailed information about each criteria.
+This is the reader's guide for my portfolio created for the Applied Data Science minor at The Hague University of Applied Sciences.  
+Below are the criteria from the scoring matrix with detailed information about each criteria.  
+The reader's guide is numbered for easier reading.
 
 <h2> Datacamp </h2>
 All datacamp courses except for one were completed. The one that was not completed was *Time Series Analysis with Python*.<br>
