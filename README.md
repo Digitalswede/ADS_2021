@@ -65,7 +65,7 @@ Insert that image here (in a dropdown)
 <details>
 <summary> 2.1 Task Definition</summary>
   
-My contribution: I gave feedback and discussed with the group members (David & Maria) who had created the initial draft about which research questions we should keep, and which questions we should move forward with. Here is a link to an early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later on in the project. 
+My contribution: I gave feedback and discussed with the group members (David & Maria) who had created the initial draft about which research questions we should keep, and which questions we should move forward with. Here is a link to a very early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later on in the project. 
   https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing <br>
   
   I was mostly working on our datasets when our first drafts of the research paper was created, so as soon as I finished work on the dataset I helped out with the questions. Below are some examples of questions that made it, and those that did not (along with our reasoning):
@@ -125,7 +125,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 3.1 Selecting a Model</summary>
-  
+  To help select a model, I 
 </details>
 
 <details>
@@ -149,22 +149,31 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 </details>
 
 
-<h2> 4. Data Preprocessing </h2>  
+<h2> 4. Domain Knowledge </h2>  
 
 <details>
-<summary> 4.1 Data Exploration</summary>
+<summary> 4.1 Introduction to the subject field </summary>
   
 </details>
 
 
 <details>
-<summary> 4.2 Data Exploration</summary>
+<summary> 4.2 Literature Research </summary>
   
 </details>
 
 
 <details>
-<summary> 4.3 Data Exploration</summary>
+<summary> 4.3 Explaination of Terminology, jargon and definitions </summary>
+  
+  Below follows an explaination for all terms or definition that are viewed as important:
+  
+  - MFCC : 
+  - Epoch : An iteration over the entire dataset during the training process for a neural network.
+  - Learning Rate : The rate at which a neural network adapts to the data. A learning rate that's too big will generally "jump over" the optimal solution and might never reach a good result. While a learning rate that's too small might take very long to train as the "jumps" it makes are very small.
+  - Dataset : A set of data that can be split into train, test and validation parts. Datasets generally consist of negative data (data that is not correct, in our case background noise) and some positive data (in our case speech). Negative and positive data should generally be balanced to avoid algorithms being biased towards one or the other. 
+  - Overfitting : Overfitting might occur when a model is trained on a limited data set, and only predicts in accordance with training data instead of adapting to validation or other 'non-training' data.
+  - 
   
 </details>
 
