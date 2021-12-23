@@ -115,7 +115,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   A screenshot of some of the notes that were taken: https://i.imgur.com/YU2HRXk.png  
   
   
-  Since not every meeting leads to notes having to be taken, there are some gaps. But in general, it worked well.   
+  Since not every meeting leads to notes having to be taken, there are some gaps.
   
   
 </details>
@@ -130,11 +130,12 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 3.2 Configuring a Model</summary>
-  
+  Some models I helped configure are:
 </details>
 
 <details>
 <summary> 3.3 Training a Model</summary>
+  
   
 </details>
 
@@ -212,12 +213,16 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 6.1 Presentations </summary>
-  
+  The presentations where I partook are the following:
+  External Presentation 1, 2, 3 (all)
+  Internal Presentation 2, 3, 4, 
 </details>
 
 
 <details>
 <summary> 6.2 Writing paper </summary>
+  
+  I helped write the paper as much as possible. Before the writing started, I gave a detailed overview of our subquestions and answered them, which helped form the base for our paper. Of course the structure changed a lot since then, but it was a start. I worked a lot on the introduction and method parts of the paper, although it was definately a group effort. 
   
 </details>
 
