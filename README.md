@@ -108,7 +108,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
 <details>
 <summary> 2.4 Planning</summary>
- My contribution: I, along with Leander Loomans, were in charge of taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). This included making the notes available for other group members to take part in. On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.<br/>  
+ My contribution: I, along with Leander Loomans, were in charge of documentation. This included taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). It also included making documents (internal and external, such as found papers) available for other group members to take part in. On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.<br/>  
     
   A screenshot from Taiga with almost everyone's activity: https://i.imgur.com/Q91fnWq.png
   
