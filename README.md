@@ -174,7 +174,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   - Learning Rate : The rate at which a neural network adapts to the data. A learning rate that's too big will generally "jump over" the optimal solution and might never reach a good result. While a learning rate that's too small might take very long to train as the "jumps" it makes are very small.
   - Dataset : A set of data that can be split into train, test and validation parts. Datasets generally consist of negative data (data that is not correct, in our case background noise) and some positive data (in our case speech). Negative and positive data should generally be balanced to avoid algorithms being biased towards one or the other. 
   - Overfitting : Overfitting might occur when a model is trained on a limited data set, and only predicts in accordance with training data instead of adapting to validation or other 'non-training' data.
-  - 
+  - Spectrogram : A visualisation of audio data which highlights changes to sound over time
   
 </details>
 
