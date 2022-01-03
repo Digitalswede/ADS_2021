@@ -14,8 +14,8 @@ All datacamp courses except for one were completed. The one that was not complet
 Outside of the assigned datacamp courses, roughly 1/4 of another course, *Spoken Language Processing in Python*, was also completed.<br>
 <details>
 <summary> Datacamp Course Assignment Screenshot </summary>
-https://i.imgur.com/YT92ZKs.png
-</summary>
+![Datacamp](https://i.imgur.com/YT92ZKs.png)
+</details>
 
 <h2> 1. Reflection and evaluation </h2>
 
