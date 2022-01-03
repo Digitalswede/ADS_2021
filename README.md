@@ -10,12 +10,10 @@ Below are the criteria from the scoring matrix with detailed information about e
 The reader's guide is numbered for easier reading.
 
 <h2> Datacamp </h2>
-All datacamp courses except for one were completed. The one that was not completed was *Time Series Analysis with Python*.<br>
+All datacamp courses except for one were completed. The one that was not completed was *Joining Data with Pandas* .<br>
 Outside of the assigned datacamp courses, roughly 1/4 of another course, *Spoken Language Processing in Python*, was also completed.<br>
-<details>
-<summary> Datacamp Course Assignment Screenshot </summary>
 ![Datacamp](datacamp.png)
-</details>
+
 
 <h2> 1. Reflection and evaluation </h2>
 
