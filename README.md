@@ -12,9 +12,10 @@ The reader's guide is numbered for easier reading.
 <h2> Datacamp </h2>
 All datacamp courses except for one were completed. The one that was not completed was *Time Series Analysis with Python*.<br>
 Outside of the assigned datacamp courses, roughly 1/4 of another course, *Spoken Language Processing in Python*, was also completed.<br>
-
-Insert that image here (in a dropdown)
-
+<details>
+<summary> Datacamp Course Assignment Screenshot </summary>
+https://i.imgur.com/YT92ZKs.png
+</summary>
 
 <h2> 1. Reflection and evaluation </h2>
 
