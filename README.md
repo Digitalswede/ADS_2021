@@ -12,9 +12,7 @@ The reader's guide is numbered for easier reading.
 <h2> Datacamp </h2>
 All datacamp courses except for one were completed. The one that was not completed was *Joining Data with Pandas* .<br>
 Outside of the assigned datacamp courses, roughly 1/4 of another course, *Spoken Language Processing in Python*, was also completed.<br>
-<details>
- ! [Datacamp] (datacamp.png)
-</details>
+Here is a link to a screenshot with the completed courses: https://i.imgur.com/YT92ZKs.png
   
 
 
