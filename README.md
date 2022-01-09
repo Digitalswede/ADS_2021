@@ -130,7 +130,9 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 3.2 Configuring a Model</summary>
-  Some models I helped configure are:
+  Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/ye%20olde%20cnn%20stuff/NN%20Take%201.ipynb
+My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working.
+  I also configured a simple RFC model early in the course as a first test of machine learning models. Unfortunately, I don't have the notebook file anymore.
 </details>
 
 <details>
