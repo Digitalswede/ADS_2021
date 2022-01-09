@@ -195,6 +195,12 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 5.3 Data Preparation</summary>
+While the project was still using images as input data, I created a dataloader to speed up the data processing times for the group. Unfortunately this never really came to be used since, shortly after I finished it, we switched to not using images anymore.
+A overview of my work on data prep can be found in this notebook: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/Standardized%20Image%20Generator%20Multi-Assistant%20-%20SIGMA.ipynb
+  
+After the dataloader for images ended up being scrapped, I helped Leander and Olaf create a new version. 
+  It can be found here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb
+  For that notebook, I would estimate my contribution is around 25-40%.
   
 </details>
 
