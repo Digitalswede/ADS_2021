@@ -210,7 +210,7 @@ Sound data can also be represented with spectrograms, and other image representa
 <summary> 5.2 Data Cleansing</summary>
   
   Some of the data cleansing I did can be found in this notebook, in block [6]: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/negativesamples/dataset%20incl%20neg%20data.ipynb
- Here, I filter out some specific columns (the ones that will be of use to us) from the 'negativedf' dataframe (this dataframe contains all negative samples). Afterwards, I concatenate this dataframe with our positive data, resulting in a cleaned up version of the negative data being concatenated to the positive data.  
+ Here, I filter out some specific columns (the ones that will be of use to us) from the 'negativedf' dataframe (this dataframe contains the lables for all negative samples). Afterwards, I concatenate this dataframe with our positive data labels, resulting in a cleaned up version of the negative labels being concatenated to the positive labels.  
   
   I also did some data transformation by overlapping background noises on top of speech.  The file I created through this transformation process came to be used a lot, and referred to (internally) as the 'difficult' data set, which we trained the first model on to increase its tolerance to overlapping noises. This step was taken again at the end of the project, but then I also amplified the background noises overlaid by 20db, making the dataset even harder for the algorithm. 
   The file can be found here: https://gpuserver.hhs.nl:8888/user/21087024/tree/dialogue/Bj%C3%A4rn/Dataset
@@ -219,12 +219,12 @@ Sound data can also be represented with spectrograms, and other image representa
 
 <details>
 <summary> 5.3 Data Preparation</summary>
-While the project was still using images as input data, I created a dataloader to speed up the data processing times for the group. Unfortunately this never really came to be used since, shortly after I finished it, we switched to not using images anymore.
-A overview of my work on data prep can be found in this notebook: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/Standardized%20Image%20Generator%20Multi-Assistant%20-%20SIGMA.ipynb
+While the project was still using images as input data, I created a dataloader to standardize the data preparation process for the group. Luckily we didn't have to deal with outliers or missing values. Unfortunately this tool never really came to be used since, shortly after I finished it, we switched to not using images anymore as our input.
+Some of my work on data prep can be found in this notebook: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/Standardized%20Image%20Generator%20Multi-Assistant%20-%20SIGMA.ipynb
   
 After the dataloader for images ended up being scrapped, I helped Leander and Olaf create a new version. 
-  It can be found here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb
-  For that notebook, I would estimate my contribution is around 25-30%.
+It can be found here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb
+For that notebook, I would estimate my contribution is around 25-30%.
   
   
   
@@ -236,7 +236,8 @@ After the dataloader for images ended up being scrapped, I helped Leander and Ol
 </details>
 
 <details>
-<summary> 5.5 Data visualisation</summary>
+<summary> 5.5 Data visualisation (Exploratory) </summary>
+As we worked with audio data, and specifically speech, there wasn't a lot to gain from looking at our raw data. Spectrograms or MFCCs also not very readable. However, I did look at visual representations of the data in order to explore and compare the amplitude of certain segments, to decide which segment we should use to train our algorithm. The source data file was too big and would have been very slow to process, so having a visual representation helped us create a smaller but representative version of the dataset.  
   
 </details>
 
