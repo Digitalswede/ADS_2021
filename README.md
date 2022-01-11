@@ -134,7 +134,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 <summary> 3.2 Configuring a Model</summary>
   Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/ye%20olde%20cnn%20stuff/NN%20Take%201.ipynb
 My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working.
-  I also configured a simple RFC model early in the course as a first test of machine learning models. Unfortunately, I don't have the notebook file anymore.
+  I also configured a simple Logistic Regression model early in the course as a first test of machine learning models, using one of the example notebooks provided as the foundation. This file is available here: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/L6.7%20Text.ipynb
 </details>
 
 <details>
@@ -158,6 +158,8 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 <details>
 <summary> 4.1 Introduction to the subject field </summary>
+  Our subject field came to be audio signal processing. This meant we had to use recordings of audio to be read by an algorithm in order to make predictions on the audio itself. In order to do this, we transformed the audio data into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition.This process can be seen here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb 
+Sound data can also be represented with spectrograms, and other image representations of sound (such as oscillograms/waveforms). In our study, we got the best results from working with only mfcc data. The sample rate of recordings is also an important factor to consider, since it is a measure of how many samples are recorded over a period of time. A high sample rate will contain a lot of samples, but might be computationally expensive or contain unnecessarily many samples. While a low sample rate has some information loss, but can be faster to process.
   
 </details>
 
@@ -172,8 +174,8 @@ My contribution: All of what you see in the notebook, some of the values were ch
 <summary> 4.3 Explaination of Terminology, jargon and definitions </summary>
   
   Below follows an explaination for all terms or definition that are viewed as important:
-  
-  - MFCC : 
+  - MFC: Mel-Frequency Cepstrum, a 
+  - MFCC : A coefficient to 
   - Epoch : An iteration over the entire dataset during the training process for a neural network.
   - Learning Rate : The rate at which a neural network adapts to the data. A learning rate that's too big will generally "jump over" the optimal solution and might never reach a good result. While a learning rate that's too small might take very long to train as the "jumps" it makes are very small.
   - Dataset : A set of data that can be split into train, test and validation parts. Datasets generally consist of negative data (data that is not correct, in our case background noise) and some positive data (in our case speech). Negative and positive data should generally be balanced to avoid algorithms being biased towards one or the other. 
