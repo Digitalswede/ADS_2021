@@ -266,6 +266,8 @@ As we worked with audio data, and specifically speech, there wasn't a lot to gai
   
   - #9 (created the presentation) 
   
+  I belive I gave more presentations than most other group members, but this did not bother me, they were quite fun and interesting to do.
+  
 </details>
 
 
