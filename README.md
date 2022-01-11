@@ -174,13 +174,18 @@ Sound data can also be represented with spectrograms, and other image representa
 <summary> 4.3 Explaination of Terminology, jargon and definitions </summary>
   
   Below follows an explaination for all terms or definition that are viewed as important:
-  - MFC: Mel-Frequency Cepstrum, a 
-  - MFCC : A coefficient to 
+  - MFC: Mel-Frequency Cepstrum, an aggregation of several MFCC's (components).
+  - MFCC : A coefficient to MFC's, meaning one MFC is made up of many MFCCs. MFCCs are a method of displaying features on audio data, and is heavily related to feature extraction.
   - Epoch : An iteration over the entire dataset during the training process for a neural network.
   - Learning Rate : The rate at which a neural network adapts to the data. A learning rate that's too big will generally "jump over" the optimal solution and might never reach a good result. While a learning rate that's too small might take very long to train as the "jumps" it makes are very small.
   - Dataset : A set of data that can be split into train, test and validation parts. Datasets generally consist of negative data (data that is not correct, in our case background noise) and some positive data (in our case speech). Negative and positive data should generally be balanced to avoid algorithms being biased towards one or the other. 
   - Overfitting : Overfitting might occur when a model is trained on a limited data set, and only predicts in accordance with training data instead of adapting to validation or other 'non-training' data.
   - Spectrogram : A visualisation of audio data which highlights changes to sound over time. A spectrogram is generated from a collection of Fourier Transforms, thus creating a more detailed representation of the data.
+  - (Machine learning) model: A program that is trained to detect certain patterns in data.
+  - Confusion Matrix: A form of evaluation on a model, where the amount of false negatives, false positives and correct estimations are displayed.
+  - Sample Rate: An attribute of audio describing the amount of samples over a period of time. A high sample rate is generally good, but might be more computationally expensive. While a low sample rate generally means less samples over time, but easier to process.
+  - Loss function: A function that is able to determine how the performance of a model relates to the dataset used. 
+  - Neural Network: A type of algorithm that works by using layers containing nodes/neurons that recieve and pass on weighted data in order to make predictions on it. 
   
 </details>
 
@@ -193,7 +198,7 @@ Sound data can also be represented with spectrograms, and other image representa
 <summary> 5.1 Data Exploration</summary>
   
   In order to familiarize myself with the data we were using, I had to inspect the data to be able to work with it as best as possible.
-  One of the data explorations i did is in this notebook: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/audiodata%20test/wav%20data%20filter%2Bexploration.ipynb. Here, I started experimenting with using attributes from the data (such as sample rates) while also looking at the labels for our data, and making sure the labels add up with the speech. It was helpful in order to learn about the format of our data, and what our data can be used for.
+  One of the data explorations I did is in this notebook: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/audiodata%20test/wav%20data%20filter%2Bexploration.ipynb. Here, I started experimenting with using attributes from the data (such as sample rates) while also looking at the labels for our data, and making sure the labels add up with the speech. It was helpful in order to learn about the format of our data, and what our data can be used for.
   
   
   
