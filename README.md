@@ -187,10 +187,18 @@ My contribution: All of what you see in the notebook, some of the values were ch
 <details>
 <summary> 5.1 Data Exploration</summary>
   
+  In order to familiarize myself with the data we were using, I had to inspect the data to be able to work with it as best as possible.
+  One of the data explorations i did is in this notebook: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/audiodata%20test/wav%20data%20filter%2Bexploration.ipynb. Here, I started experimenting with using attributes from the data (such as sample rates) while also looking at the labels for our data, and making sure the labels add up with the speech. It was helpful in order to learn about the format of our data, and what our data can be used for.
+  
+  
+  
 </details>
 
 <details>
 <summary> 5.2 Data Cleansing</summary>
+  
+  Some of the data cleansing I did can be found in this notebook, in block [6]: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/negativesamples/dataset%20incl%20neg%20data.ipynb
+ Here, I filter out some specific columns (the ones that will be of use to us) from the 'negativedf' dataframe (this dataframe contains all negative samples). Afterwards, I concatenate this dataframe with our positive data, resulting in a cleaned up version of the negative data being concatenated to the positive data.  
   
 </details>
 
@@ -208,10 +216,7 @@ After the dataloader for images ended up being scrapped, I helped Leander and Ol
 </details>
 
 <details>
-<summary> 5.4 Data Exploration</summary>
-  
-  In order to familiarize myself with the data we were using, I had to inspect the data to be able to work with it as best as possible.
-  One of the data explorations i did is in this notebook: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/audiodata%20test/wav%20data%20filter%2Bexploration.ipynb. Here, I started experimenting with using attributes from the data (such as sample rates) while also looking at the labels for our data, and making sure the labels add up with the speech. It was helpful in order to learn about the format of our data, and what our data can be used for.
+<summary> 5.4 Data Explaination</summary>
   
 </details>
 
