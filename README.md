@@ -186,6 +186,7 @@ Sound data can also be represented with spectrograms, and other image representa
   - Sample Rate: An attribute of audio describing the amount of samples over a period of time. A high sample rate is generally good, but might be more computationally expensive. While a low sample rate generally means less samples over time, but easier to process.
   - Loss function: A function that is able to determine how the performance of a model relates to the dataset used. 
   - Neural Network: A type of algorithm that works by using layers containing nodes (also called neurons) that recieve and pass on weighted data in order to make predictions on datasets. Needs to be properly trained in order to work.
+  - Outliers: Data points that differ a lot from other data.
   
 </details>
 
