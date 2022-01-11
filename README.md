@@ -212,7 +212,7 @@ Sound data can also be represented with spectrograms, and other image representa
   Some of the data cleansing I did can be found in this notebook, in block [6]: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/negativesamples/dataset%20incl%20neg%20data.ipynb
  Here, I filter out some specific columns (the ones that will be of use to us) from the 'negativedf' dataframe (this dataframe contains all negative samples). Afterwards, I concatenate this dataframe with our positive data, resulting in a cleaned up version of the negative data being concatenated to the positive data.  
   
-  I also did some data transformation (but there was no headline for this) by overlapping  background noises on top of speech. The file I created through this transformation process came to be used a lot, and referred to (internally) as the 'difficult' data set, which we trained the first model on to increase its tolerance to overlapping noises. 
+  I also did some data transformation by overlapping background noises on top of speech.  The file I created through this transformation process came to be used a lot, and referred to (internally) as the 'difficult' data set, which we trained the first model on to increase its tolerance to overlapping noises. This step was taken again at the end of the project, but then I also amplified the background noises overlaid by 20db, making the dataset even harder for the algorithm. 
   
 </details>
 
