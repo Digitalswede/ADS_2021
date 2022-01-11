@@ -77,7 +77,7 @@ This question was central in the project, since the context for our project cons
 This question has a lot to do with the one above it. We ultimately decided that a minimum grade of participation from at least two speakers is necessary to constitute a conversation. We had to discuss this with the problem owner several times, as we didn't want to make assumptions ourselves. If we simply regarded any dialogue between people regardless of speech duration per speaker, this could have given different results.
   
  - Can we detect if the dementia patient is speaking on the phone?<br>
-This questions was considered to be out of scope. There are probably easier ways to determine when an elderly person is using their phone than only listening to them speak, and we wanted to focus on specifically conversation in a physical setting.
+This question was considered to be out of scope. There are probably easier ways to determine when an elderly person is using their phone than only listening to them speak, and we wanted to focus on specifically conversation in a physical setting.
 
 - Can we detect if the person speaking is physically present?<br>
 This question was ultimately decided to be out of scope, but it did come up for discussion a few times. Essentially, a voice being played from a speaker will most likely not have the same range as a human speaking. This makes it possible - in theory, we never got far enough to actually work on it - to determine when a voice is "fake" or "real". This is a suitable area for further research in my opinion, since we never had time to try it out the results would be very interesting.
@@ -100,6 +100,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
 <details>
 <summary> 2.3 Conclusions</summary>
+  My conclusions from this project are that it is indeed possible to use data science techniques (in our case, convolutional neural networks) to detect conversation to some degree. By converting audio data to MFCC's, and feeding them through two neural networks, we can with 89% (for detecting speech) and 94% (for detecting changes in speaker) accuracy determine if a conversation is happening. Of course, our algorithm is not perfect, and there will be many situations where it does not work properly. For instance, if the other half of the conversation is taking place over the phone. With the final product, that combines the first and second model, I would say we have results that support our research problem "”How can data science techniques detect if there is a conversation between at least two people by analyzing audio files?”" and can now state that by using CNNs, MFCC data format and measuring speaker activity & speech duration, data science techniques can detect conversation.
   
 </details>
   
@@ -200,12 +201,17 @@ A overview of my work on data prep can be found in this notebook: https://gpuser
   
 After the dataloader for images ended up being scrapped, I helped Leander and Olaf create a new version. 
   It can be found here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb
-  For that notebook, I would estimate my contribution is around 25-40%.
+  For that notebook, I would estimate my contribution is around 25-30%.
+  
+  
   
 </details>
 
 <details>
 <summary> 5.4 Data Exploration</summary>
+  
+  In order to familiarize myself with the data we were using, I had to inspect the data to be able to work with it as best as possible.
+  One of the data explorations i did is in this notebook: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/audiodata%20test/wav%20data%20filter%2Bexploration.ipynb. Here, I started experimenting with using attributes from the data (such as sample rates) while also looking at the labels for our data, and making sure the labels add up with the speech. It was helpful in order to learn about the format of our data, and what our data can be used for.
   
 </details>
 
@@ -220,8 +226,17 @@ After the dataloader for images ended up being scrapped, I helped Leander and Ol
 <details>
 <summary> 6.1 Presentations </summary>
   The presentations where I partook are the following:
-  External Presentation 1, 2, 3 (all)
-  Internal Presentation 2, 3, 4, 
+  External Presentation 
+  #1 (helped create presentation, gave the presentation together with the rest of the group) 
+  #2 (created presentation, gave the presentation together with 1 other member)
+  #3 (created presentation, gave the presentation together with 1 other member)
+  Internal Presentation: 
+  #2 (created presentation, gave the presentation together with 1 other member)
+  #4 (created presentation, gave the presentation together with 1 other member)
+  #5 (created presentation, gave the presentation together with 1 other member)
+  #8 (gave the presentation together with 2 others)
+  #9 (created the presentation) 
+  
 </details>
 
 
