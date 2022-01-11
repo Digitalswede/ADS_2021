@@ -276,7 +276,7 @@ As we worked with audio data, and specifically speech, there wasn't a lot to gai
   
  I also helped other group members writing the paper by giving constructive feedback, always being mindful of other people's work and not criticizing. I ended up making quite a few corrections to the paper in most sections, an effort that I hope changed our paper for the better since I feel it's important to deliver a strong paper. 
   
-  It is difficult to give examples here, since writing the paper was a continuous process and quite hard to measure in terms of contribution.
+  It is difficult to give examples here, since writing the paper was a continuous process and quite hard to measure in terms of contribution. 
 </details>
 
 
