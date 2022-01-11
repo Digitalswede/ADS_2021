@@ -158,8 +158,9 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 <details>
 <summary> 4.1 Introduction to the subject field </summary>
-  Our subject field came to be audio signal processing. This meant we had to use recordings of audio to be read by an algorithm in order to make predictions on the audio itself. In order to do this, we transformed the audio data into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition.This process can be seen here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb 
-Sound data can also be represented with spectrograms, and other image representations of sound (such as oscillograms/waveforms). In our study, we got the best results from working with only mfcc data. The sample rate of recordings is also an important factor to consider, since it is a measure of how many samples are recorded over a period of time. A high sample rate will contain a lot of samples, but might be computationally expensive or contain unnecessarily many samples. While a low sample rate has some information loss, but can be faster to process.
+  Our subject field came to be audio signal processing. This meant we had to use recordings of audio as input to an algorithm in order to make predictions on the audio itself. In order to do this, we transformed the audio data into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition. This process can be seen here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb 
+Sound data can also be represented with spectrograms, and other image representations of sound (such as oscillograms/waveforms). However, we achieved the best results working with MFCCs. The sample rate of recordings is also an important factor to consider, since it is a measure of how many samples are recorded over a period of time. A high sample rate will contain a lot of samples, but might be computationally expensive or contain unnecessarily many samples. While a low sample rate has some information loss, but can be faster to process.
+  
   
 </details>
 
