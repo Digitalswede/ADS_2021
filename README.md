@@ -3,6 +3,7 @@ Portfolio for applied data science minor
 
 Name: Björn Appehl <br>
 Student ID: 21087024
+Group: Team Dialogue
 
 <h1> Introduction </h1>
 This is the reader's guide for my portfolio created for the Applied Data Science minor at The Hague University of Applied Sciences.   <br>
@@ -11,7 +12,7 @@ The reader's guide is numbered for easier reading. <br>
 A big thank you to Team Dialogue, and also to Jeroen, Tony, Ruud and Hani for guiding us.
 
 <h2> Datacamp </h2>
-All datacamp courses except for one were completed. The one that was not completed was *Joining Data with Pandas*, since it seemed like the least relevant one to the project.<br>
+All datacamp courses except for one were completed. The one that was not completed was *Joining Data with Pandas*, since it seemed like one with least in common with our project work.<br>
 Outside of the assigned datacamp courses, roughly 1/4 of another course, *Spoken Language Processing in Python*, was also completed.<br>
 Here is a link to a screenshot with the completed courses: https://i.imgur.com/YT92ZKs.png
   
