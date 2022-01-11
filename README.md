@@ -10,7 +10,7 @@ Below are the criteria from the scoring matrix with detailed information about e
 The reader's guide is numbered for easier reading.
 
 <h2> Datacamp </h2>
-All datacamp courses except for one were completed. The one that was not completed was *Joining Data with Pandas* .<br>
+All datacamp courses except for one were completed. The one that was not completed was *Joining Data with Pandas*, since it seemed like the least relevant one to the project.<br>
 Outside of the assigned datacamp courses, roughly 1/4 of another course, *Spoken Language Processing in Python*, was also completed.<br>
 Here is a link to a screenshot with the completed courses: https://i.imgur.com/YT92ZKs.png
   
@@ -65,13 +65,11 @@ Here is a link to a screenshot with the completed courses: https://i.imgur.com/Y
 <details>
 <summary> 2.1 Task Definition</summary>
   
-My contribution: I gave feedback and discussed with the group members (David & Maria) who had created the initial draft about which research questions we should keep, and which questions we should move forward with. Here is a link to a very early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later on in the project. 
+My contribution: I gave feedback and discussed with the group members (David & Maria, who had created the initial draft) about which research questions we should keep, and which questions we should move forward with. Here is a link to a very early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later on in the project. 
   https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing <br>
   
   I was mostly working on our datasets when our first drafts of the research paper was created, so as soon as I finished work on the dataset I helped out with the questions. Below are some examples of questions that made it, and those that did not (along with our reasoning):
   
-
-    
  - How can we detect multiple voices from audio data? <br>
 This question was central in the project, since the context for our project consists of defining when conversation is happening. Detecting multiple voices makes the difference between a monologue and an actual conversation and is very important for the end result.
   
