@@ -185,7 +185,7 @@ Sound data can also be represented with spectrograms, and other image representa
   - Confusion Matrix: A form of evaluation on a model, where the amount of false negatives, false positives and correct estimations are displayed.
   - Sample Rate: An attribute of audio describing the amount of samples over a period of time. A high sample rate is generally good, but might be more computationally expensive. While a low sample rate generally means less samples over time, but easier to process.
   - Loss function: A function that is able to determine how the performance of a model relates to the dataset used. 
-  - Neural Network: A type of algorithm that works by using layers containing nodes/neurons that recieve and pass on weighted data in order to make predictions on it. 
+  - Neural Network: A type of algorithm that works by using layers containing nodes (also called neurons) that recieve and pass on weighted data in order to make predictions on datasets. Needs to be properly trained in order to work.
   
 </details>
 
@@ -237,7 +237,7 @@ For that notebook, I would estimate my contribution is around 25-30%.
 
 <details>
 <summary> 5.5 Data visualisation (Exploratory) </summary>
-As we worked with audio data, and specifically speech, there wasn't a lot to gain from looking at our raw data. Spectrograms or MFCCs are also not very readable. However, I did compare visual representations of the data in order to explore the amplitude of certain segments, to decide which segment we should use to train our algorithm. The source data file was too big and would have been very slow to process, so having a visual representation helped us create a smaller but representative version of the dataset. In this instance, the software Audacity was used to visually represent the data (and still be able to listen to the audio, for quality reasons).
+As we worked with audio data, and specifically speech, there wasn't a lot to gain from looking at our raw data. Spectrograms or MFCCs are also not very readable. However, I did compare visual representations of the data in order to explore the amplitude of certain segments, to decide which segment we should use to train our algorithm. The source data file was too big and would have been very slow to process, so having a visual representation helped us create a smaller but representative version of the dataset. In this instance, the software Audacity was used to visually represent the data while still being able to listen to the audio, for quality reasons (such as spikes in amplitude that may be loud speech, or just a glitch/unintentional sounds).
   
 </details>
 
