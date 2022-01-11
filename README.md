@@ -173,7 +173,7 @@ Sound data can also be represented with spectrograms, and other image representa
 <details>
 <summary> 4.3 Explaination of Terminology, jargon and definitions </summary>
   
-  Below follows an explaination for all terms or definition that are viewed as important:
+  Below follows an explaination for terms or definitions that are viewed as important:
   - MFC: Mel-Frequency Cepstrum, an aggregation of several MFCC's (components).
   - MFCC : A coefficient to MFC's, meaning one MFC is made up of many MFCCs. MFCCs are a method of displaying features on audio data, and is heavily related to feature extraction.
   - Epoch : An iteration over the entire dataset during the training process for a neural network.
