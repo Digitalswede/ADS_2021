@@ -166,7 +166,7 @@ Sound data can also be represented with spectrograms, and other image representa
 
 <details>
 <summary> 4.2 Literature Research </summary>
-  
+  I found several pieces of relevant literature during this minor. One of the more interesting ones is Udin *et al.* (2018) The topic is Ambient Sensors for Elderly Care, and this paper looks at results and data from other studies and summarizes their findings. This helped us a lot since in this study, since it gave a good overview of other studies with the same end goal. From studying this paper, it became apparent that using sound data for the purpose of recognizing daily activity is not as common as some other methods, such as video or infrared sensors. From the study of Udin *et al.* (2018), I found other interesting studies. Such as Vacher *et al.* (2011), a study with some similarities to ours, such as the fact that they are also processing audio data in a household setting for assisted care purposes.
 </details>
 
 
