@@ -226,16 +226,16 @@ After the dataloader for images ended up being scrapped, I helped Leander and Ol
 <details>
 <summary> 6.1 Presentations </summary>
   The presentations where I partook are the following:
-  External Presentation 
-  #1 (helped create presentation, gave the presentation together with the rest of the group) 
-  #2 (created presentation, gave the presentation together with 1 other member)
-  #3 (created presentation, gave the presentation together with 1 other member)
+  External Presentation:
+  - #1 (helped create presentation, gave the presentation together with the rest of the group) 
+  - #2 (created presentation, gave the presentation together with 1 other member)
+  - #3 (created presentation, gave the presentation together with 1 other member)
   Internal Presentation: 
-  #2 (created presentation, gave the presentation together with 1 other member)
-  #4 (created presentation, gave the presentation together with 1 other member)
-  #5 (created presentation, gave the presentation together with 1 other member)
-  #8 (gave the presentation together with 2 others)
-  #9 (created the presentation) 
+  - #2 (created presentation, gave the presentation together with 1 other member)
+  - #4 (created presentation, gave the presentation together with 1 other member)
+  - #5 (created presentation, gave the presentation together with 1 other member)
+  - #8 (gave the presentation together with 2 others)
+  - #9 (created the presentation) 
   
 </details>
 
