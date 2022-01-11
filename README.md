@@ -226,6 +226,7 @@ After the dataloader for images ended up being scrapped, I helped Leander and Ol
 <details>
 <summary> 6.1 Presentations </summary>
   The presentations where I partook are the following:
+  
   External Presentation:
   - #1 (helped create presentation, gave the presentation together with the rest of the group) 
   
