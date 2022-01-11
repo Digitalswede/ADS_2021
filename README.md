@@ -272,11 +272,11 @@ As we worked with audio data, and specifically speech, there wasn't a lot to gai
 <details>
 <summary> 6.2 Writing paper </summary>
   
-  I helped write the paper as much as possible. Before the writing started, I gave a detailed overview of our subquestions and answered them, which helped form the base for our paper. Of course the structure changed a lot since then, but it was a start. I worked a lot on the introduction part, including background and research problem of the paper. I also wrote content in other sections, but my primary focus (since we divided it up) was the introduction. The introduction was the first section of the paper I started writing, and I put a lot of effort in to make it as good as possible. I hope the introduction properly showcases our domain and the purpose of our work, since I put a lot of time into it. 
+  I helped write the paper as much as possible. Before the writing started, I gave a detailed overview of our subquestions and answered them, which helped form the base for our paper. Of course the structure changed a lot since then, but it was a start. I worked a lot on the introduction part, including background and research problem of the paper. I also wrote content in other sections, but my primary focus (since we divided it up) was the introduction. The introduction was the first section of the paper I started writing, and I later starter helping out on other sections. But I hope the introduction properly showcases our domain and the purpose of our work.
   
  I also helped other group members writing the paper by giving constructive feedback, always being mindful of other people's work and not criticizing. I ended up making quite a few corrections to the paper in most sections, an effort that I hope changed our paper for the better since I feel it's important to deliver a strong paper. 
   
-  It is difficult to give examples here, since writing the paper is a continuous process and quite hard to measure in terms of contribution.
+  It is difficult to give examples here, since writing the paper was a continuous process and quite hard to measure in terms of contribution.
 </details>
 
 
