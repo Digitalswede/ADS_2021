@@ -197,7 +197,7 @@ Sound data can also be represented with spectrograms, and other image representa
 <summary> 5.1 Data Exploration</summary>
   
   In order to familiarize myself with the data we were using, I had to inspect the data to be able to work with it as best as possible.
-  One of the instances of data exploration I did is in this notebook: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/audiodata%20test/wav%20data%20filter%2Bexploration.ipynb. Here, I started experimenting with using attributes from the data (such as sample rates) while also looking at the labels for our data, and making sure the labels add up with the speech. It was helpful in order to learn about the format of our data, and what our data can be used for. We also based the half-second increments around this information that was retrieved from exploring data.
+  One of the instances of data exploration I did is in this notebook: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/wav%20data%20filter%2Bexploration.ipynb. Here, I started experimenting with using attributes from the data (such as sample rates) while also looking at the labels for our data, and making sure the labels add up with the speech. It was helpful in order to learn about the format of our data, and what our data can be used for. We also based the half-second increments around this information that was retrieved from exploring data.
   
   I also explored the data by looking at it in the software Audacity. Using this software to visualise amplitude of the audio files helped us in selecting data that was well suited to our algorithms. I was primarily looking for data that was not too loud, nor too silent, as not balancing this might mean our algorithm will perform poorly.
   
@@ -208,7 +208,7 @@ Sound data can also be represented with spectrograms, and other image representa
 <details>
 <summary> 5.2 Data Cleansing</summary>
   
-  Some of the data cleansing I did can be found in this notebook, in block [6]: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/negativesamples/dataset%20incl%20neg%20data.ipynb
+  Some of the data cleansing I did can be found in this notebook, in block [6]: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/dataset%20incl%20neg%20data.ipynb
  Here, I filter out some specific columns (the ones that will be of use to us) from the 'negativedf' dataframe (this dataframe contains the lables for all negative samples). Afterwards, I concatenate this dataframe with our positive data labels, resulting in a cleaned up version of the negative labels being concatenated to the positive labels.  
   
   I also did some data transformation by overlapping background noises on top of speech. The file I created through this transformation process came to be used a lot, and referred to (internally) as the 'difficult' data set, which we ran through the first model to evaluate its tolerance to speech with overlapping noise. This step was taken again at the end of the project, but then I also amplified the background noises overlaid by 20db, making the dataset even harder for the algorithm. We used this file for evaluation right at the end of the project, and the accuracy from the algorithm (speech detection model) was reduced by around 5%.
