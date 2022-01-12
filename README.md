@@ -120,7 +120,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 3.1 Selecting a Model</summary>
-  To help select a model, I 
+  The decision to use convolutional neural networks was taken early on, and it was very much a group decision. In order to get the best results, we argued that spending a lot of time 'perfecting' one method (we decided on CNN) will lead to better results than spending the same amount of time trying out different models. We looked at literature, such as Ashar, Bhatti and Mushtaq (2020) that use CNNs with MFCCs specifically. This also meant that, since CNN's are able to learn features based on data, we did not have to do much feature extraction/selection. In retrospect, I think the decision to use CNNs was the right thing, but exploring other models would have been interesting, too.
 </details>
 
 <details>
@@ -289,5 +289,12 @@ This is one area where I feel like I contributed a lot, and I hope the portfolio
 All datacamp courses except for one were completed. The one that was not completed was **Joining Data with Pandas**, since it seemed like one with least in common with our project work.<br>
 Outside of the assigned datacamp courses, roughly 1/4 of another course, **Spoken Language Processing in Python**, was also completed.<br>
 Here is a link to a screenshot with the completed courses: https://i.imgur.com/YT92ZKs.png
+
+<h2> References </h2>
+A. Ashar, M. S. Bhatti, and U. Mushtaq, (2020), Speaker identification using a hybrid cnn-mfcc approach. in 2020 International Conference on Emerging Trends in Smart Technologies (ICETST), 2020, pp. 1–4. <br/>
+
+M. Vacher, D. Istrate, F. Portet, T. Joubert, and T. Chevalier, (2011), The sweet-home project: audio technology in smart homes to improve well-being and reliance. Annu Int Conf IEEE Eng Med Biol Soc. 2011;2011:5291-4. doi: 10.1109/IEMBS.2011.6091309. PMID: 22255532.
+
+Z. Uddin, W. Khaksar, and J. Torresen, (2018), Ambient Sensors for Elderly Care and Independent Living: A Survey. Sensors 18, no. 7: 2027. https://doi.org/10.3390/s18072027
   
 
