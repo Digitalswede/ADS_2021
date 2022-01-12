@@ -2,7 +2,7 @@
 Portfolio for applied data science minor
 
 Name: Björn Appehl <br>
-Student ID: 21087024
+Student ID: 21087024 <br>
 Group: Team Dialogue
 
 <h1> Introduction </h1>
@@ -102,8 +102,8 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
 <details>
 <summary> 2.4 Planning</summary>
- My contribution: I, along with Leander Loomans, were in charge of documentation. This included taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). It also included making documents (internal and external, such as found papers) available for other group members to take part in. <br/>  
-  On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.<br/>  
+ My contribution: I, along with Leander Loomans, were in charge of documentation. This included taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). It also included making documents (internal and external, such as found papers) available for other group members to take part in. <br>  
+  On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.<br>  
   
   
   A screenshot from Taiga with almost everyone's activity: https://i.imgur.com/Q91fnWq.png (It's difficult to get a really descriptive image)
@@ -242,9 +242,9 @@ I compared visual representations of the data in order to explore the amplitude 
 </details>
 
 <h2> 6. Communication </h2>
-In this chapter, my participation in presentations and our paper is highlighted.<br/>
-This is one area where I feel like I contributed a lot, and I hope the portfolio reflects that. <br/>
-<br/>
+In this section, my participation in presentations and our paper is highlighted.<br>
+This is one area where I feel like I contributed a lot, and I hope the portfolio reflects that. <br>
+<br>
 <details>
 <summary> 6.1 Presentations </summary>
   The presentations where I partook are the following:
