@@ -33,8 +33,16 @@ A big thank you to the rest of Team Dialogue, and thanks to to Jeroen, Tony, Ruu
 <details>
 <summary> 1.2 Reflection on own learning objectives</summary>
   
-- 
+ - Situation: Since I am studying Business Process Development at my home university, which contains a lot of information about theoretical ICT usage, I wanted to try something more hands on for my exchange. This is part of why I chose the ADS minor, but also since I have always been interested in understanding how algorithms, machine learning and neural networks & such work. In order to put myself in a position where I could learn as much as possible, I did not want to choose a field where I was already well aquainted with the contents. In the group project, we also had to learn about audio data processing a lot. This is something very unexpected, but I'm glad it happened since I now have a much better understanding of audio data processing.
   
+ - Task: As a group, we had to figure out a way to use audio data in such a way that we could make predictions on the amount of speakers, and the duration of speech. For the majority of the project, we did not use predetermined roles for our development cycle. Some of my important tasks included: Data cleaning, data transformation, coding the neural networks, giving presentations, and working on our paper. All these tasks helped me understand more about data science as a whole.
+  
+ - Action: I created machine learning models, such as a CNN and a Linear Regression model, to explore and get a better understanding of the domain which is data science. We all worked with the algorithms, and other than those, I also spent time looking for and creating datasets for our group to use. 
+  
+ - Result: I ended up getting a very deep understanding of data science during this semester, more so than I thought I would. Our algorithm performed well, and I think this is in part due to all of the group learning from eachother and working in a good pace with little downtime during our productive hours. Working with data science techniques was extremely interesting to me, and I consider my learning goals fulfilled.
+  
+  
+ - Reflection:  All the tasks I completed helped me understand more about data science as a whole. I now consider myself a lot more educated when it comes to data science in general, and my personal goals were achieved. I think the workflow in our group was over expectation, and I am very happy with how the group turned out. One thing I would have improved upon is to stay even more on top of the coding work, since I fell behind a little bit right at the end, due to other group members keeping a very high tempo.
 </details>
 
 <details>
@@ -104,13 +112,11 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 <summary> 2.4 Planning</summary>
  My contribution: I, along with Leander Loomans, were in charge of documentation. This included taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). It also included making documents (internal and external, such as found papers) available for other group members to take part in. <br>  
   On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.<br>  
+  A screenshot of some of the notes that were taken: https://i.imgur.com/YU2HRXk.png  (Since not every meeting leads to notes having to be taken, there are some gaps.) <br>
   
   
+  In our group, efficiency was quite important, and led to us having daily stand up meetings so we could all keep up with the progress happening. This worked very well, and I attended these meetings to increase our group cohesion and keep the others informed about my part in the project. All in all, Scrum as a method worked very well for us in the context that we applied it, and all group members were in charge of project planning to some degree, as the role of Scrummaster rotated in our group. In my eyes, everyone did this job very well, and tasks were evenly spread out among everyone. <br>
   A screenshot from Taiga with almost everyone's activity: https://i.imgur.com/Q91fnWq.png (It's difficult to get a really descriptive image)
-  
-  A screenshot of some of the notes that were taken: https://i.imgur.com/YU2HRXk.png  (Since not every meeting leads to notes having to be taken, there are some gaps.)
-  
-  In our group, efficiency was quite important, and led to us having daily stand up meetings so we could all keep up with the progress happening. This worked very well, and I attended these meetings to increase our group cohesion and keep the others informed about my part in the project. 
   
   
 </details>
