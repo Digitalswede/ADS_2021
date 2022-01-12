@@ -125,10 +125,10 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 3.2 Configuring a Model</summary>
-  Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here: <br> (https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py) <br>
+  Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here: <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br>
 My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working. As you can see, it is an old version since it uses images for input data. <br>
   
-  I also configured a simple Logistic Regression model early in the course as a first test of machine learning models, using one of the example notebooks provided as the foundation. This file is available here: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/L6.7%20Text.ipynb
+  I also configured a simple Logistic Regression model early in the course as a first test of machine learning models, using one of the example notebooks provided as the foundation. This file is available here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/southpark_test.py
 </details>
 
 <details>
@@ -153,7 +153,9 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 <details>
 <summary> 4.1 Introduction to the subject field </summary>
-  As we worked with the Smart Teddy project together with our problem owner Hani, our subject field came to be audio signal processing. This meant we had to use recordings of audio as input to an algorithm in order to make predictions on the audio itself. In order to do this, audio data is transformed into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition. This process can be seen here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb 
+  As we worked with the Smart Teddy project together with our problem owner Hani, our subject field came to be audio signal processing. This meant we had to use recordings of audio as input to an algorithm in order to make predictions on the audio itself. In order to do this, audio data is transformed into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition. This process can be seen here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/make%20npy%20array%20of%20audio.ipynb <br>
+  
+  
 Sound data can also be represented with spectrograms, and other image representations of sound (such as oscillograms/waveforms). However, we achieved the best results working with MFCCs. The sample rate of recordings is also an important factor to consider, since it is a measure of how many samples are recorded over a period of time. A high sample rate will contain a lot of samples, but might be computationally expensive or contain unnecessarily many samples. While a low sample rate has some information loss, but can be faster to process.
   
   
