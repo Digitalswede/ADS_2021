@@ -112,7 +112,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 <summary> 2.4 Planning</summary>
  My contribution: I, along with Leander Loomans, were in charge of documentation. This included taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). It also included making documents (internal and external, such as found papers) available for other group members to take part in. <br>  
   On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.<br>  
-  A screenshot of some of the notes that were taken: https://i.imgur.com/YU2HRXk.png  (Since not every meeting leads to notes having to be taken, there are some gaps.) <br>
+  A screenshot of some of the notes that were taken: https://i.imgur.com/YU2HRXk.png  (Since not every meeting leads to notes having to be taken, there are some gaps.) <br/>
   
   
   In our group, efficiency was quite important, and led to us having daily stand up meetings so we could all keep up with the progress happening. This worked very well, and I attended these meetings to increase our group cohesion and keep the others informed about my part in the project. All in all, Scrum as a method worked very well for us in the context that we applied it, and all group members were in charge of project planning to some degree, as the role of Scrummaster rotated in our group. In my eyes, everyone did this job very well, and tasks were evenly spread out among everyone. <br>
@@ -131,8 +131,8 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 3.2 Configuring a Model</summary>
-  Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here: <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br>
-My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working. As you can see, it is an old version since it uses images for input data. <br>
+  Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here: <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br/>
+My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working. As you can see, it is an old version since it uses images for input data. <br/>
   
   I also configured a simple Logistic Regression model early in the course as a first test of machine learning models, using one of the example notebooks provided as the foundation. This file is available here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/southpark_test.py
 </details>
