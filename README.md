@@ -158,7 +158,7 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 <details>
 <summary> 4.1 Introduction to the subject field </summary>
-  Our subject field came to be audio signal processing. This meant we had to use recordings of audio as input to an algorithm in order to make predictions on the audio itself. In order to do this, we transformed the audio data into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition. This process can be seen here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb 
+  As we worked with the Smart Teddy project together with our problem owner Hani, our subject field came to be audio signal processing. This meant we had to use recordings of audio as input to an algorithm in order to make predictions on the audio itself. In order to do this, audio data is transformed into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition. This process can be seen here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb 
 Sound data can also be represented with spectrograms, and other image representations of sound (such as oscillograms/waveforms). However, we achieved the best results working with MFCCs. The sample rate of recordings is also an important factor to consider, since it is a measure of how many samples are recorded over a period of time. A high sample rate will contain a lot of samples, but might be computationally expensive or contain unnecessarily many samples. While a low sample rate has some information loss, but can be faster to process.
   
   
@@ -167,7 +167,7 @@ Sound data can also be represented with spectrograms, and other image representa
 
 <details>
 <summary> 4.2 Literature Research </summary>
-  I found several pieces of relevant literature during this minor. One of the more interesting ones is Udin *et al.* (2018) The topic is Ambient Sensors for Elderly Care, and this paper looks at results and data from other studies and summarizes their findings. This helped us a lot since in this study, since it gave a good overview of other studies with the same end goal. From studying this paper, it became apparent that using sound data for the purpose of recognizing daily activity is not as common as some other methods, such as video or infrared sensors. From the study of Udin *et al.* (2018), I found other interesting studies. Such as Vacher *et al.* (2011), a study with some similarities to ours, such as the fact that they are also processing audio data in a household setting for assisted care purposes.
+  I found several pieces of relevant literature during this minor. One of the more interesting ones is Udin *et al.* (2018) The topic for their study is Ambient Sensors for Elderly Care, and this study looks at results and data from other works and summarizes their findings. This helped us a lot since in this study, since it gave a good overview of other studies with the same end goal (determine quality of life based on household environment data). From studying this paper, it became apparent that using sound data for the purpose of recognizing daily activity is not as common as some other methods, such as video or infrared sensors. From the study of Udin *et al.* (2018), I found other interesting studies. Such as Vacher *et al.* (2011), a study with some similarities to ours, such as the fact that they are also processing audio data in a household setting for assisted care purposes. Their study mainly relies on audio technologies in smart homes. However, it does not relate to dementia patients, only elderly to some degree.
 </details>
 
 
@@ -184,10 +184,10 @@ Sound data can also be represented with spectrograms, and other image representa
   - Spectrogram : A visualisation of audio data which highlights changes to sound over time. A spectrogram is generated from a collection of Fourier Transforms, thus creating a more detailed representation of the data.
   - (Machine learning) model: A program that is trained to detect certain patterns in data.
   - Confusion Matrix: A form of evaluation on a model, where the amount of false negatives, false positives and correct estimations are displayed.
-  - Sample Rate: An attribute of audio describing the amount of samples over a period of time. A high sample rate is generally good, but might be more computationally expensive. While a low sample rate generally means less samples over time, but easier to process.
-  - Loss function: A function that is able to determine how the performance of a model relates to the dataset used. 
+  - Sample Rate: An attribute of audio describing the amount of samples over a period of time. A high sample rate is generally good, but might be more computationally expensive. While a low sample rate generally means less samples over time, but can be easier to process.
+  - Loss function: A function that is able to determine how the performance of a model relates to the 'true values' of a dataset used. 
   - Neural Network: A type of algorithm that works by using layers containing nodes (also called neurons) that recieve and pass on weighted data in order to make predictions on datasets. Needs to be properly trained in order to work.
-  - Outliers: Data points that differ a lot from other data.
+  - Outliers: Data points that differ a lot from other data in the set.
   
 </details>
 
@@ -200,7 +200,7 @@ Sound data can also be represented with spectrograms, and other image representa
 <summary> 5.1 Data Exploration</summary>
   
   In order to familiarize myself with the data we were using, I had to inspect the data to be able to work with it as best as possible.
-  One of the data explorations I did is in this notebook: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/audiodata%20test/wav%20data%20filter%2Bexploration.ipynb. Here, I started experimenting with using attributes from the data (such as sample rates) while also looking at the labels for our data, and making sure the labels add up with the speech. It was helpful in order to learn about the format of our data, and what our data can be used for.
+  One of the instances of data exploration I did is in this notebook: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/audiodata%20test/wav%20data%20filter%2Bexploration.ipynb. Here, I started experimenting with using attributes from the data (such as sample rates) while also looking at the labels for our data, and making sure the labels add up with the speech. It was helpful in order to learn about the format of our data, and what our data can be used for. We also based the half-second increments around this information that was retrieved from exploring data.
   
   I also explored the data by looking at it in the software Audacity. Using this software to visualise amplitude of the audio files helped us in selecting data that was well suited to our algorithms. I was primarily looking for data that was not too loud, nor too silent, as not balancing this might mean our algorithm will perform poorly.
   
@@ -214,17 +214,16 @@ Sound data can also be represented with spectrograms, and other image representa
   Some of the data cleansing I did can be found in this notebook, in block [6]: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/negativesamples/dataset%20incl%20neg%20data.ipynb
  Here, I filter out some specific columns (the ones that will be of use to us) from the 'negativedf' dataframe (this dataframe contains the lables for all negative samples). Afterwards, I concatenate this dataframe with our positive data labels, resulting in a cleaned up version of the negative labels being concatenated to the positive labels.  
   
-  I also did some data transformation by overlapping background noises on top of speech.  The file I created through this transformation process came to be used a lot, and referred to (internally) as the 'difficult' data set, which we trained the first model on to increase its tolerance to overlapping noises. This step was taken again at the end of the project, but then I also amplified the background noises overlaid by 20db, making the dataset even harder for the algorithm. 
-  The file can be found here: https://gpuserver.hhs.nl:8888/user/21087024/tree/dialogue/Bj%C3%A4rn/Dataset
+  I also did some data transformation by overlapping background noises on top of speech. The file I created through this transformation process came to be used a lot, and referred to (internally) as the 'difficult' data set, which we ran through the first model to evaluate its tolerance to speech with overlapping noise. This step was taken again at the end of the project, but then I also amplified the background noises overlaid by 20db, making the dataset even harder for the algorithm. We used this file for evaluation right at the end of the project, and the accuracy from the algorithm (speech detection model) was reduced by around 5%.
   
 </details>
 
 <details>
 <summary> 5.3 Data Preparation</summary>
-While the project was still using images as input data, I created a dataloader to standardize the data preparation process for the group. Luckily we didn't have to deal with outliers or missing values. Unfortunately this tool never really came to be used since, shortly after I finished it, we switched to not using images anymore as our input.
+While the project was still using images as input data, I created a dataloader to standardize the data preparation process for the group. Luckily we didn't have to deal with outliers or missing values in our data, our results were high enough without accounting for that. Unfortunately this tool never really came to be used since, shortly after I finished it, we switched to not using images anymore as our input.
 Some of my work on data prep can be found in this notebook: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/Standardized%20Image%20Generator%20Multi-Assistant%20-%20SIGMA.ipynb
   
-After the dataloader for images ended up being scrapped, I helped Leander and Olaf create a new version. 
+After the dataloader for images ended up being scrapped due to new requirements, I helped Leander and Olaf create a new version. 
 It can be found here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb
 For that notebook, I would estimate my contribution is around 25-30%.
   
@@ -234,6 +233,12 @@ For that notebook, I would estimate my contribution is around 25-30%.
 
 <details>
 <summary> 5.4 Data Explaination</summary>
+  We used multiple datasets and had to combine them ourselves since our problem owner did not provide data.
+ - AVA-Speech is one of the datasets we used for speech detection. It contains around 45 hours of dialogue from movies, which means it also contains some overlaid background noises. However, the speech is labled, and it is possible by using these labels to only get "CLEAN_SPEECH", which is speech without overlaying noise. We decided to also use the other labels, to train the algorithm and increase its tolerance. We made sure to balance our dataset and have it include a 1:1 amount of true and false data, this was achieved by mixing the data with negative labels. We used 5000 seconds of "SPEECH_WITH_MUSIC", 5000 seconds of "SPEECH_WITH_NOISE", and 5000 seconds of "CLEAN_SPEECH". We combined this with 15000 seconds of "NO_SPEECH", providing us with a total of 30000 seconds of mixed audio data where half is true, and half is false. This dataset is recorded at 44100Hz.
+ - Librispeech, a dataset containing speaker-labled audiobook data, came to be very useful in the project. Since it does not contain (noticeable) noise, this dataset was primarily used for speaker differentiation. This was convineant as all speakers in the dataset are labled. Since this dataset was at 16KHz, we upsampled it to fit the other datasets at 44.1KHz. 
+  
+  
+  
   
 </details>
 
@@ -269,7 +274,7 @@ This is one area where I feel like I contributed a lot, and I hope the portfolio
   
   - #9 (created the presentation) 
   
-  I belive I gave more presentations than most other group members, but this did not bother me, they were quite fun and interesting to do.
+  I belive I gave more presentations than most other group members, but this did not bother me as they were quite fun and interesting to do.
   
 </details>
 
@@ -282,6 +287,8 @@ This is one area where I feel like I contributed a lot, and I hope the portfolio
  I also helped other group members writing the paper by giving constructive feedback, always being mindful of other people's work and not criticizing. I ended up making quite a few corrections to the paper in most sections, an effort that I hope changed our paper for the better since I feel it's important to deliver a strong paper. 
   
   It is difficult to give examples here, since writing the paper was a continuous process and quite hard to measure in terms of contribution. 
+  
+  Here is a link to our finished paper: https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing
 </details>
 
 
