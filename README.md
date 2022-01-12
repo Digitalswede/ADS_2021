@@ -316,7 +316,9 @@ Outside of the assigned datacamp courses, roughly 1/4 of another course, **Spoke
 Here is a link to a screenshot with the completed courses: https://i.imgur.com/YT92ZKs.png
 
 <h2> References </h2>
+
 A. Ashar, M. S. Bhatti, and U. Mushtaq, (2020), Speaker identification using a hybrid cnn-mfcc approach. in 2020 International Conference on Emerging Trends in Smart Technologies (ICETST), 2020, pp. 1–4. doi: 10.1109/ICETST49965.2020.9080730. <br/>
+
 
 
 M. Vacher, D. Istrate, F. Portet, T. Joubert, and T. Chevalier, (2011), The sweet-home project: audio technology in smart homes to improve well-being and reliance. Annu Int Conf IEEE Eng Med Biol Soc. 2011;2011:5291-4. doi: 10.1109/IEMBS.2011.6091309 PMID: 22255532. <br>
