@@ -244,7 +244,8 @@ I compared visual representations of the data in order to explore the amplitude 
 </details>
 
 <h2> 6. Communication </h2>
-In this chapter, my participation in presentations and our paper is highlighted. This is one area where I feel like I contributed a lot, and I hope the portfolio reflects that.
+In this chapter, my participation in presentations and our paper is highlighted.
+This is one area where I feel like I contributed a lot, and I hope the portfolio reflects that. <br/>
 
 <details>
 <summary> 6.1 Presentations </summary>
