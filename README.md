@@ -54,7 +54,7 @@ A big thank you to the rest of Team Dialogue, and thanks to to Jeroen, Tony, Ruu
 
 - Activities: Our application of Scrum consisted of daily online standups, which we had mostly every weekday for the minor unless something else was said. We still had physical standup meetings on days where we were all gathering to work at campus. These 'working days' on campus became quite central in our work, and 2-3 days every week was spent on campus. 
 
-- Results: I, and I belive all other group members, are happy with the results we achieved. Not only are we happy with the algoithm, which gives great results as far as we can see, we also achieved the results working in a sustainable and reasonable pace with little conflict or unnecessary stress. 
+- Results: I, and I belive all other group members, are happy with the results we achieved. Not only are we happy with the algoithm, which gives great results as far as we can see, we also achieved the results working in a sustainable and reasonable pace with little conflict or unnecessary stress. My knowledge about statistics has also increased after taking this minor.
 
 - Reflection: I'm sure none of our group members are finishing this minor without having learned something. The distribution of workload in retrospect was, according to me, a very good way to make sure noone is understimulated or has too much to do. While it took a few weeks to get this running smoothly, mostly due to all members getting to know eachother and their skill sets, it ended up being very benefitial for us. If I were to do this project again, I would happily work with the same group in the same manner as we did. The working days on campus was, according to me, a big factor in our projects success and helped us work better together and make social connections.
 
@@ -95,9 +95,11 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   A few of them include:
   
   - Comparing the accuracy of our speaker differentiation model with human results. This could be done by a study where correspondants listen to short clips of speech and asses whether all clips are said by the same speaker or not. It would be very interesting to see if humans or the model perform better if voices are very similar for instance. Since our research has only measured the accuracy of our model,  a "human" accuracy score would be an interesting metric to consider. 
-  Link to this 
+
   
-  - Since the model for speaker differentation came to be quite complex, it would be interesting to see new projects which aims to identify the elderly person's voice. Samples might be collected over a period of time and eventually could be used to compare all detected speech to the patient themselves, instead of always comparing every segment.
+  - Since the model for speaker differentation we used came to be quite complex, it would be interesting to see new projects aim to identify the patient's voice as a profile to compare other voices against. Samples might be collected over a period of time and eventually could be used to compare all detected speech to the patient themselves, instead of always comparing every segment with all voices therein. This might result in higher accuracy for determining whether or not it is the patient who is speaking.
+  
+  - 
 </details>
   
   
@@ -167,6 +169,8 @@ My contribution: All of what you see in the notebook, some of the values were ch
   
   
 Sound data can also be represented with spectrograms, and other image representations of sound (such as oscillograms/waveforms). However, we achieved the best results working with MFCCs. The sample rate of recordings is also an important factor to consider, since it is a measure of how many samples are recorded over a period of time. A high sample rate will contain a lot of samples, but might be computationally expensive or contain unnecessarily many samples. While a low sample rate has some information loss, but can be faster to process.
+  
+All of these techniques mentioned above were relevant in our Dialogue project, which is a part of the bigger Smart Teddy Bear project. This is a very interesting domain, as it contains a lot of different problems. Not only did we need to create a functional algorithm to classify speech, we also needed to work with and get a deep understanding of audio data, and relate all of our work to the healthcare domain for dementia patients. 
   
   
 </details>
@@ -240,9 +244,16 @@ For that notebook, I would estimate my contribution is around 30-40%.
 
 <details>
 <summary> 5.4 Data Explaination</summary>
-  We used multiple datasets and had to combine them ourselves since our problem owner did not provide data.
+  We used multiple datasets and had to combine them ourselves since our problem owner did not provide data. An important factor for our datasets came to be labeling, which we all spent of time working on. Since the data was not categorical, and we could not label it ourselves in a reliable (or convenient) fashion, all our datasets had to be labeled to describe which parts of the audio contained speech. For the speaker differentation model, this was even more important, as the speakers now had to be labeled too. Luckily we managed to find good, suitable candidates.
+  
+  
  - AVA-Speech is one of the datasets we used for speech detection. It contains around 45 hours of dialogue from movies, which means it also contains some overlaid background noises. However, the speech is labled, and it is possible by using these labels to only get "CLEAN_SPEECH", which is speech without overlaying noise. We decided to also use the other labels, to train the algorithm and increase its tolerance. We made sure to balance our dataset and have it include a 1:1 amount of true and false data, this was achieved by mixing the data with negative labels. We used 5000 seconds of "SPEECH_WITH_MUSIC", 5000 seconds of "SPEECH_WITH_NOISE", and 5000 seconds of "CLEAN_SPEECH". We combined this with 15000 seconds of "NO_SPEECH", providing us with a total of 30000 seconds of mixed audio data where half is true, and half is false. This dataset is recorded at 44100Hz.
+  
+  
  - Librispeech, a dataset containing speaker-labled audiobook data, came to be very useful in the project. Since it does not contain (noticeable) noise, this dataset was primarily used for speaker differentiation. This was convineant as all speakers in the dataset are labled. Since this dataset was at 16KHz, we upsampled it to fit the other datasets at 44.1KHz. 
+  
+  
+ - CHIME-Home was used for some negative samples, as it partly contained non-speech audio. This dataset was also at a different sampling rate, and had to be upscaled in order to keep our data integrity as we were not sure how different sampling rates would affect the model.
   
   
   
