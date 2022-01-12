@@ -125,7 +125,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 3.2 Configuring a Model</summary>
-  Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here: (https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py)
+  Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here: <br> (https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py) <br>
 My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working. As you can see, it is an old version since it uses images for input data. <br>
   
   I also configured a simple Logistic Regression model early in the course as a first test of machine learning models, using one of the example notebooks provided as the foundation. This file is available here: https://datascience.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%B6rn/L6.7%20Text.ipynb
