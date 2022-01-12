@@ -239,12 +239,12 @@ For that notebook, I would estimate my contribution is around 25-30%.
 
 <details>
 <summary> 5.5 Data visualisation (Exploratory) </summary>
-As we worked with audio data, and specifically speech, there wasn't a lot to gain from looking at our raw data. Spectrograms or MFCCs are also not very readable. However, I did compare visual representations of the data in order to explore the amplitude of certain segments, to decide which segment we should use to train our algorithm. The source data file was too big and would have been very slow to process, so having a visual representation helped us create a smaller but representative version of the dataset. In this instance, the software Audacity was used to visually represent the data while still being able to listen to the audio, for quality reasons (such as spikes in amplitude that may be loud speech, or just a glitch/unintentional sounds).
+I compared visual representations of the data in order to explore the amplitude of certain segments, to decide which segment we should use to train our algorithm. The source data file was too big and would have been very slow to process, so having a visual representation helped us create a smaller but representative version of the dataset. In this instance, the software Audacity was used to visually represent the data while still being able to listen to the audio, for quality reasons (such as spikes in amplitude that may be loud speech, or just a glitch/unintentional sounds from recording). I think there were limited opportunities for us to visualize our data, since we worked specifically to identify speech. 
   
 </details>
 
 <h2> 6. Communication </h2>
-
+In this chapter, my participation in presentations and our paper is highlighted. This is one area where I feel like I contributed a lot, and I hope the portfolio reflects that.
 
 <details>
 <summary> 6.1 Presentations </summary>
