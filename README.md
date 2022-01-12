@@ -231,12 +231,14 @@ All of these techniques mentioned above were relevant in our Dialogue project, w
 
 <details>
 <summary> 5.3 Data Preparation</summary>
-While the project was still using images as input data, I created a dataloader to standardize the data preparation process for the group. Luckily we didn't have to deal with outliers or missing values in our data, our results were high enough without accounting for that. Unfortunately this tool never really came to be used since, shortly after I finished it, we switched to not using images anymore as our input.
+While the project was still using images as input data, I created a dataloader to standardize the data preparation process for the group.  Unfortunately this tool never really came to be used since, shortly after I finished it, we switched to not using images anymore as our input.
 Some of my work on data prep can be found in this notebook: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/Standardized%20Image%20Generator.ipynb
   
 After the dataloader for images ended up being scrapped due to new requirements, Leander and I created a new version, which was used for the remainder of the project.
 It can be found here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/make%20npy%20array%20of%20audio.ipynb
 For that notebook, I would estimate my contribution is around 30-40%.
+  
+Luckily we didn't seem to be impacted by outliers or missing values in our data, our results were high enough without accounting for that. As we created the datasets ourselves, we were confident in that data was consistent and uniform. Since we were working with audio data though, this was hard to prove. We also did not find many useful strategies for managing outliers in audio.
   
   
   
