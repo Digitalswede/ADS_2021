@@ -153,7 +153,7 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 <details>
 <summary> 4.1 Introduction to the subject field </summary>
-  As we worked with the Smart Teddy project together with our problem owner Hani, our subject field came to be audio signal processing. This meant we had to use recordings of audio as input to an algorithm in order to make predictions on the audio itself. In order to do this, audio data is transformed into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition. This process can be seen here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/make%20npy%20array%20of%20audio.ipynb <br>
+  As we worked with the Smart Teddy project together with our problem owner Hani, our subject field came to be audio signal processing. This meant we had to use recordings of audio as input to an algorithm in order to make predictions on the audio itself. In order to do this, audio data is transformed into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition. This process can be seen here, in block [5]: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/make%20npy%20array%20of%20audio.ipynb <br>
   
   
 Sound data can also be represented with spectrograms, and other image representations of sound (such as oscillograms/waveforms). However, we achieved the best results working with MFCCs. The sample rate of recordings is also an important factor to consider, since it is a measure of how many samples are recorded over a period of time. A high sample rate will contain a lot of samples, but might be computationally expensive or contain unnecessarily many samples. While a low sample rate has some information loss, but can be faster to process.
@@ -218,11 +218,11 @@ Sound data can also be represented with spectrograms, and other image representa
 <details>
 <summary> 5.3 Data Preparation</summary>
 While the project was still using images as input data, I created a dataloader to standardize the data preparation process for the group. Luckily we didn't have to deal with outliers or missing values in our data, our results were high enough without accounting for that. Unfortunately this tool never really came to be used since, shortly after I finished it, we switched to not using images anymore as our input.
-Some of my work on data prep can be found in this notebook: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/Standardized%20Image%20Generator%20Multi-Assistant%20-%20SIGMA.ipynb
+Some of my work on data prep can be found in this notebook: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/Standardized%20Image%20Generator.ipynb
   
-After the dataloader for images ended up being scrapped due to new requirements, I helped Leander and Olaf create a new version. 
-It can be found here: https://gpuserver.hhs.nl:8888/user/21087024/notebooks/dialogue/Bj%C3%A4rn/make%20npy%20array%20of%20audio.ipynb
-For that notebook, I would estimate my contribution is around 25-30%.
+After the dataloader for images ended up being scrapped due to new requirements, Leander and I created a new version, which was used for the remainder of the project.
+It can be found here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/make%20npy%20array%20of%20audio.ipynb
+For that notebook, I would estimate my contribution is around 30-40%.
   
   
   
