@@ -132,12 +132,13 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 <details>
 <summary> 3.3 Training a Model</summary>
-  
+  The models used in our project were trained 
   
 </details>
 
 <details>
 <summary> 3.4 Evaluating a Model</summary>
+  In terms of evaluation, 
   
 </details>
 
