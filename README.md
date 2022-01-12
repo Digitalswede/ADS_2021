@@ -11,13 +11,6 @@ Below are the criteria from the scoring matrix with detailed information about e
 The reader's guide is numbered for easier reading. <br>
 A big thank you to the rest of Team Dialogue, and also to Jeroen, Tony, Ruud and Hani for guiding us.
 
-<h2> Datacamp </h2>
-All datacamp courses except for one were completed. The one that was not completed was **Joining Data with Pandas**, since it seemed like one with least in common with our project work.<br>
-Outside of the assigned datacamp courses, roughly 1/4 of another course, **Spoken Language Processing in Python**, was also completed.<br>
-Here is a link to a screenshot with the completed courses: https://i.imgur.com/YT92ZKs.png
-  
-
-
 <h2> 1. Reflection and evaluation </h2>
 
 <details>
@@ -291,4 +284,10 @@ This is one area where I feel like I contributed a lot, and I hope the portfolio
   Here is a link to our finished paper: https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing
 </details>
 
+
+<h2> Datacamp </h2>
+All datacamp courses except for one were completed. The one that was not completed was **Joining Data with Pandas**, since it seemed like one with least in common with our project work.<br>
+Outside of the assigned datacamp courses, roughly 1/4 of another course, **Spoken Language Processing in Python**, was also completed.<br>
+Here is a link to a screenshot with the completed courses: https://i.imgur.com/YT92ZKs.png
+  
 
