@@ -124,6 +124,8 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
   A screenshot from Taiga with almost everyone's activity: https://i.imgur.com/Q91fnWq.png (It's difficult to get a really descriptive image)
   
+  Maria Hoendermis, one of our groupmembers, was very helpful in the planning process and did most of the work in communicating with teachers to set up meetings for the rest of the group.
+  
   
 </details>
 
