@@ -9,7 +9,7 @@ Group: Team Dialogue
 This is the reader's guide for my portfolio created for the Applied Data Science minor at The Hague University of Applied Sciences.   <br>
 Below are the criteria from the scoring matrix with detailed information about each criteria.   <br>
 The reader's guide is numbered for easier reading. <br>
-A big thank you to the rest of Team Dialogue, and also to Jeroen, Tony, Ruud and Hani for guiding us.
+A big thank you to the rest of Team Dialogue, and thanks to to Jeroen, Tony, Ruud and Hani for all your advice in the past six months.
 
 <h2> 1. Reflection and evaluation </h2>
 
