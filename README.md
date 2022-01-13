@@ -295,8 +295,7 @@ This is one area where I feel like I contributed a lot, and I hope the portfolio
   - #8 (gave the presentation together with 2 others)
   
   - #9 (created the presentation) 
-  
-  I belive I gave more presentations than most other group members, but this did not bother me as they were quite fun and interesting to do.
+
   
 </details>
 
