@@ -287,8 +287,7 @@ I compared visual representations of the data in order to explore the amplitude 
 </details>
 
 <h2> 6. Communication </h2>
-In this section, my participation in presentations and our paper is highlighted.<br>
-This is one area where I feel like I contributed a lot, and I hope the portfolio reflects that. <br>
+In this section, my participation in presentations and our paper is highlighted. This is one area where I feel like I contributed a lot, and I hope the portfolio reflects that. Since we did not use a formal schedule for the persons responsible for the presentation or the workload distribution in our paper, it's unfortunately hard to provide 'proof' on it. <br>
 <br>
 <details>
 <summary> 6.1 Presentations </summary>
