@@ -121,14 +121,26 @@ My contribution: For the paper, I gave some ideas for future work with our proto
  My contribution: I, along with Leander Loomans, were in charge of documentation. This included taking notes whenever important information was recieved from teachers or the problem owner (or internal meetings). It also included making documents (internal and external, such as found papers) available for other group members to take part in. On top of this, every group member was equally involved in updating the Scrumboard on Taiga and making sure it was up to date.
   
   
-  A screenshot of some of the notes that were taken: https://i.imgur.com/YU2HRXk.png  (Since not every meeting leads to notes having to be taken, there are some gaps.)<br/>
+  A screenshot of some of the notes that were taken:
+ <details> <summary> Image of Notes Taken </summary>
+  
+ ![GitHub Pages](./images/notes.png)
+  
+ </details>
+ 
   
   
   
   In our group, efficiency was quite important, and led to us having daily stand up meetings so we could all keep up with the progress happening. This worked very well, and I attended these meetings to increase our group cohesion and keep the others informed about my part in the project. All in all, Scrum as a method worked very well for us in the context that we applied it, and all group members were in charge of project planning to some degree, as the role of Scrummaster rotated in our group. In my eyes, everyone did this job very well, and tasks were evenly spread out among everyone. Also as a part of Scrum, we used sprint retrospectives when finishing sprints. These really helped us develop as a group, as we evaluted factors like communication and workload distribution in order to improve. This gave good results, and after only 2-3 retrospectives our communication had improved a lot, a big benefit early on in the project. <br>
   
   
-  A screenshot from Taiga with almost everyone's activity: https://i.imgur.com/Q91fnWq.png (It's difficult to get a really descriptive image)
+  A screenshot from Taiga with almost everyone's activity (It's difficult to get a really descriptive image): 
+ 
+  <details> <summary> Image of Taiga Activity </summary>
+  
+ ![GitHub Pages](./images/taigaactivity.png)
+  
+ </details>
   
   Maria Hoendermis, one of our groupmembers, was very helpful in the planning process and communicated a lot with teachers to set up meetings for the group.
   
@@ -162,13 +174,25 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 <details>
 <summary> 3.4 Evaluating a Model</summary>
-  I unfortunately missed out on evaluating our models, as the models we used evolved rapidly and our results were constantly changing as the work process went on. The final model we used was evaluated by a confusion matrix. That confusion matrix can be found here: https://i.imgur.com/arRwDSn.png. It conveys good results, and we are happy with the performance as evaluated here.
+  I unfortunately missed out on evaluating our models, as the models we used evolved rapidly and our results were constantly changing as the work process went on. The final model we used was evaluated by a confusion matrix. The confusion matrix indicates good results, and we are happy with the performance as evaluated here. The confusion matrix can be found here:
+ 
+   <details> <summary> Image of Confusion Matrix </summary>
+  
+ ![GitHub Pages](./images/confusionmatrix.png)
+  
+ </details>
   
 </details>
 
 <details>
 <summary> 3.5 Visualising the outcome of a model</summary>
-  In terms of visual outcomes, towards the end of the project we made some good progress. Until that point, there wasn't much reason to visualize the outcomes since they were highly likely to change. The most prominent visual outcomes of our models are the confusion matrix described in 3.4, along with some handcrafted visualisations that represent the speech detection from the first model. This can look like this: https://i.imgur.com/vOk8oIm.jpg. Here, the value is 1 when a voice is detected, and 0 when a voice is not detected.
+  In terms of visual outcomes, towards the end of the project we made some good progress. Until that point, there wasn't much reason to visualize the outcomes since they were highly likely to change. The most prominent visual outcomes of our models are the confusion matrix described in 3.4, along with some handcrafted visualisations that represent the speech detection from the first model. In the visualization that we used, the value is 1 when a voice is detected, and 0 when a voice is not detected. This can look like this:
+ 
+    <details> <summary> Image of Voice Detection Visulisation </summary>
+  
+ ![GitHub Pages](./images/voicedetection_yesno.png)
+  
+ </details>
   
 </details>
 
@@ -345,7 +369,13 @@ In this section, my participation in presentations and our paper is highlighted.
 <h2> Datacamp </h2>
 All assigned datacamp courses except for one were completed. The one that was not completed was **Joining Data with Pandas**, since it seemed like the one with least in common with our project work.<br>
 Outside of the assigned datacamp courses, roughly 1/4 of another course, **Spoken Language Processing in Python**, was also completed.<br>
-Here is a link to a screenshot with the completed courses: https://i.imgur.com/YT92ZKs.png
+Here is a link to a screenshot with the completed courses: 
+
+ <details> <summary> Image of Datacamp Completion </summary>
+  
+ ![GitHub Pages](datacamp.png)
+  
+ </details>
 
 <h2> References </h2>
 
