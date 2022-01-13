@@ -143,12 +143,12 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   Early on, I managed to train and get results from a neural network. The code can be found here, and contains all steps (including training and fitting on test data): <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.ipynb <br/>
 My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working. As you can see, it is an old version since it uses images for input data. A lot of the configuration was changed from the source code, which I found online, in order to fit our data & project. <br/>
   
-  I also configured a simple Logistic Regression model early in the course as a first test of machine learning models, using one of the example notebooks provided as the foundation. This file is available here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/southpark_test.py
+  I also configured a simple Logistic Regression model early in the course as a first test of machine learning models, using one of the example notebooks provided as the foundation. This file is available here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/dialogueprediction.ipynb
 </details>
 
 <details>
 <summary> 3.3 Training a Model</summary>
-  The models I trained was the same as in 3.2, training happens specifically in block [5]. Link: <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br/>
+  The models I trained was the same as in 3.2, training happens specifically in block [5]. Link: <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.ipynb <br/>
   When training, the model, data, loss function and optimizer are passed to the training function. Model.train is used to initiate the training of the model on the dataset. During training, the loss function and backpropagation (which is responsible for tuning the weights in the NN are differently on different epochs) are also initiated. "            print(f"loss: {loss:>7f}  [{current:>5d}/{size:>5d}]")" is the code that prints the loss for each iteration.
   
 </details>
