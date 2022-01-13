@@ -12,9 +12,11 @@ The reader's guide is numbered for easier reading. <br>
 A big thank you to the rest of Team Dialogue, and thanks to to Jeroen, Tony, Ruud and Hani for all your advice in the past six months.
 
 <h2> 1. Reflection and evaluation </h2>
-
+ In this chapter I explain the project from a evaluating perspective, and give context to these perspectives through the STARR method. The chapter is divided up in three parts, self reflection, reflection on learning goals, and group reflection.
+ 
 <details>
 <summary> 1.1 Reflection on own contribution to the project </summary>
+
 
 - Situation:  Our project group consisted of 6 members, and we worked with audio data to detect conversation for the Smart Teddy Bear project. We all worked together to ensure everyone would get hands-on experience with every aspect of the project work, although this was hard to realize and in the end some work ended up being unevenly distributed. Since I don't have a great deal of experience writing code, I was a little out of the loop at the end of the project when the code we had for our CNN's became more and more complex. However, at that point I took on other duties which helped the group as a whole but did not give me as much programming experience as some others.
 
@@ -64,6 +66,7 @@ A big thank you to the rest of Team Dialogue, and thanks to to Jeroen, Tony, Ruu
 
 
 <h2> 2. Research Project </h2>
+In this chapter I go over the work which relates to the research we did, and how we performed it. It contains information about the results & early stages of our research paper and information about how Scrum was applied to this project, as well as how we planned the project.  
 
 <details>
 <summary> 2.1 Task Definition</summary>
@@ -132,6 +135,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 
 <h2> 3. Predictive Analysis </h2>
+In this chapter, my contributions in model selection, configuration, training and evaluations are shown. This is an area that I wished I spent more time in, since I enjoyed it very much and found it interesting. However, the project progressed at a faster rate than me fully grasping with the syntax we used. 
 
 <details>
 <summary> 3.1 Selecting a Model</summary>
@@ -167,6 +171,7 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 
 <h2> 4. Domain Knowledge </h2>  
+This chapter contains information about the domain in which we worked. It mostly relates to audio signal processing from a machine learning perspective. I found this domain very interesting, as I had no previous experience in working with audio, nor working with applied machine learning and they were both very intricate. The domain is mostly explained from a perspective of our project group.
 
 <details>
 <summary> 4.1 Introduction to the subject field </summary>
@@ -176,7 +181,9 @@ My contribution: All of what you see in the notebook, some of the values were ch
 Sound data can also be represented with spectrograms, and other image representations of sound (such as oscillograms/waveforms). However, we achieved the best results working with MFCCs. The sample rate of recordings is also an important factor to consider, since it is a measure of how many samples are recorded over a period of time. A high sample rate will contain a lot of samples, but might be computationally expensive or contain unnecessarily many samples. While a low sample rate has some information loss, but can be faster to process.
   
   
-All of these techniques mentioned above were relevant in our Dialogue project, which is a part of the bigger Smart Teddy Bear project. This is a very interesting domain, as it contains a lot of different problems. Not only did we need to create a functional algorithm to classify speech, we also needed to work with and get a deep understanding of audio data, and relate all of our work to the healthcare domain for dementia patients. 
+All of these techniques mentioned above were relevant in our Dialogue project, which is a part of the bigger Smart Teddy Bear project. This is a very interesting domain, as it contains a lot of unique problems that are not observed when working with, for instance, numerical data. Not only did we need to create a functional algorithm to classify speech, we also needed to work with and get a deep understanding of audio data, and relate all of our work to the healthcare domain for dementia patients.
+  
+  
   
   
 </details>
@@ -213,6 +220,7 @@ All of these techniques mentioned above were relevant in our Dialogue project, w
 
 
 <h2> 5. Data Preprocessing </h2>  
+Since data preprocessing is a very central part of data science, I wanted to get very familiar on it. Since data preprocessing can translate to other instances than data science, for instance when working with databases, I think it's a very valuable skill to have in ICT.
 
 <details>
 <summary> 5.1 Data Exploration</summary>
