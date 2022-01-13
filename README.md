@@ -148,18 +148,19 @@ My contribution: All of what you see in the notebook, some of the values were ch
 <details>
 <summary> 3.3 Training a Model</summary>
   The models I trained was the same as in 3.2, training happens specifically in block [5]. Link: <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br/>
-  When training, the model, data, loss function and optimizer are passed to the training function. Model.train is used to initiate the training of the model, with the chosen training data. 
+  When training, the model, data, loss function and optimizer are passed to the training function. Model.train is used to initiate the training of the model on the dataset. During training, the loss function and backpropagation (which is responsible for tuning the weights in the NN are differently on different epochs) are also initiated. "            print(f"loss: {loss:>7f}  [{current:>5d}/{size:>5d}]")" is the code that prints the loss for each iteration.
   
 </details>
 
 <details>
 <summary> 3.4 Evaluating a Model</summary>
-  In terms of evaluation, 
+  I unfortunately missed out on evaluating our models, as the models we used evolved rapidly and our results were constantly changing as the work process went on. The final model we used was evaluated by a confusion matrix. That confusion matrix can be found here: https://i.imgur.com/arRwDSn.png. It conveys good results, and we are happy with the performance as evaluated here.
   
 </details>
 
 <details>
 <summary> 3.5 Visualising the outcome of a model</summary>
+  In terms of visual outcomes, towards the end of the project we made some good progress. Until that point, there wasn't much reason to visualize the outcomes since they were highly likely to change. The most prominent visual outcomes of our models are the confusion matrix described in 3.4, along with some handcrafted visualisations that represent the speech detection from the first model. This can look like this: https://i.imgur.com/vOk8oIm.jpg. Here, the value is 1 when a voice is detected, and 0 when a voice is not detected.
   
 </details>
 
@@ -182,7 +183,7 @@ All of these techniques mentioned above were relevant in our Dialogue project, w
 
 <details>
 <summary> 4.2 Literature Research </summary>
-  I found several pieces of relevant literature during this minor. One of the more interesting ones is Udin *et al.* (2018) The topic for their study is Ambient Sensors for Elderly Care, and this study looks at results and data from other works and summarizes their findings. This helped us a lot since in this study, since it gave a good overview of other studies with the same end goal (determine quality of life based on household environment data). From studying this paper, it became apparent that using sound data for the purpose of recognizing daily activity is not as common as some other methods, such as video or infrared sensors. From the study of Udin *et al.* (2018), I found other interesting studies. Such as Vacher *et al.* (2011), a study with some similarities to ours, such as the fact that they are also processing audio data in a household setting for assisted care purposes. Their study mainly relies on audio technologies in smart homes. However, it does not relate to dementia patients, only elderly to some degree. This was used to establish some of the background in the paper and give perspective for our research, however the technical details (such as the model architecture of a CNN tuned for voice detection) we had to look for in other papers, such as Salehghaffari (2018). In that paper, we found inspiration for parameters like learning rates and epochs for our CNNs.
+  I found several pieces of relevant literature during this minor. One of the more interesting ones is Udin *et al.* (2018) The topic for their study is Ambient Sensors for Elderly Care, and this study looks at results and data from other works and summarizes their findings. This helped us a lot since in this study, since it gave a good overview of other studies with the same end goal (determine quality of life based on household environment data). From studying this paper, it became apparent that using sound data for the purpose of recognizing daily activity is not as common as some other methods, such as video or infrared sensors. From the study of Udin *et al.* (2018), I found other interesting studies. Such as Vacher *et al.* (2011), a study with some similarities to ours, such as the fact that they are also processing audio data in a household setting for assisted care purposes. Their study mainly relies on audio technologies in smart homes. However, it does not relate to dementia patients, only elderly to some degree. This was used to establish some of the background in the paper and give perspective for our research, however the technical details (such as the model architecture of a CNN tuned for voice detection) we had to look for in other papers, such as Salehghaffari (2018). In that paper (among others), we found inspiration for parameters like learning rates and epochs for our CNNs.
 </details>
 
 
@@ -191,10 +192,10 @@ All of these techniques mentioned above were relevant in our Dialogue project, w
   
   Below follows an explaination for terms or definitions that are viewed as important:
   - MFC: Mel-Frequency Cepstrum, an aggregation of several MFCC's (coefficients).
-  - MFCC : A coefficient to MFC's, meaning one MFC is made up of many MFCCs. MFCCs are a method of displaying features on audio data, and is heavily related to feature extraction.
+  - MFCC : A coefficient to MFC's, meaning one MFC is made up of many MFCCs. MFCCs are a method of visualising features from audio data, and is heavily related to feature extraction.
   - Epoch : An iteration over the entire dataset during the training process for a neural network.
-  - Learning Rate : The rate at which a neural network adapts to the data. A learning rate that's too big has a chance to oscillate and "jump over" the optimal solution. This might mean it never reaches a good result. While a learning rate that's too small might take very long to train as the "jumps" it makes are very small.
-  - Dataset : A set of data that can be split into train, test and validation parts. Datasets generally consist of negative data (data that is not correct, in our case background noise) and some positive data (in our case speech). Negative and positive data should generally be balanced to avoid algorithms being biased towards one or the other. 
+  - Learning Rate : The rate at which a neural network adapts to the data. A learning rate that's too big has a chance to oscillate and "jump over" the optimal solution. This might mean the model never reaches a good result. While a learning rate that's too small might take very long to train as the "jumps" it makes are very small.
+  - Dataset : A set of data that can be split into train, test and validation parts. Datasets generally consist of negative data (data that is not correct, in our case non-speech) and some positive data (in our case speech). Negative and positive data should generally be balanced to avoid algorithms being biased towards one or the other. 
   - Overfitting : Overfitting might occur when a model is trained on a limited data set, and only predicts in accordance with training data instead of adapting to validation or other 'non-training' data.
   - Spectrogram : A visualisation of audio data which highlights changes to sound over time. A spectrogram is generated from a collection of Fourier Transforms, thus creating a more detailed representation of the data.
   - (Machine learning) model: A program that is trained to detect certain patterns in data.
@@ -217,7 +218,7 @@ All of these techniques mentioned above were relevant in our Dialogue project, w
   In order to familiarize myself with the data we were using, I had to inspect the data to be able to work with it as best as possible.
   One of the instances of data exploration I did is in this notebook: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/wav%20data%20filter%2Bexploration.ipynb. Here, I started experimenting with using attributes from the data (such as sample rates) while also looking at the labels for our data, and making sure the labels add up with the speech. It was helpful in order to learn about the format of our data, and what our data can be used for. We also based the half-second increments around this information that was retrieved from exploring data.
   
-  I also explored the data by looking at it in the software Audacity. Using this software to visualise amplitude of the audio files helped us in selecting data that was well suited to our algorithms. I was primarily looking for data that was not too loud, nor too silent, as not balancing this might mean our algorithm will perform poorly.
+  I also explored the data by looking at it in the software Audacity. Using this software to visualise amplitude of the audio files helped us in selecting data that was well suited to our purposes (detecting speech). I was primarily looking for data that was not too loud, nor too silent, as not balancing this correctly might mean our algorithm will perform poorly (such as, by training a voice detection model on loud speech only).
   
   
   
@@ -242,7 +243,7 @@ After the dataloader for images ended up being scrapped due to new requirements,
 It can be found here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/make%20npy%20array%20of%20audio.ipynb
 For that notebook, I would estimate my contribution is around 30-40%.
   
-Luckily we didn't seem to be impacted by outliers or missing values in our data, our results were high enough without accounting for that. As we created the datasets ourselves, we were confident in that data was consistent and uniform. Since we were working with audio data though, this was hard to prove. We also did not find many useful strategies for managing outliers in audio.
+Luckily we didn't seem to be impacted by outliers or missing values in our data, our results were high enough without accounting for that. As we created the datasets ourselves, we were confident in that data was consistent and uniform. Since we were working with audio data though, this was hard to prove. We also did not find many useful strategies for managing outliers in audio, if they even existed in our dataset in the first place.
   
   
   
@@ -268,7 +269,10 @@ Luckily we didn't seem to be impacted by outliers or missing values in our data,
 
 <details>
 <summary> 5.5 Data visualisation (Exploratory) </summary>
-I compared visual representations of the data in order to explore the amplitude of certain segments, to decide which segment we should use to train our algorithm. The source data file was too big and would have been very slow to process, so having a visual representation helped us create a smaller but representative version of the dataset. In this instance, the software Audacity was used to visually represent the data while still being able to listen to the audio, for quality reasons (such as spikes in amplitude that may be loud speech, or just a glitch/unintentional sounds from recording). I think there were limited opportunities for us to visualize our data, since we worked specifically to identify speech. 
+I compared visual representations of the data in order to explore the amplitude of certain segments, to decide which segment we should use to train our algorithm. The source data file was too big and would have been very slow to process, so having a visual representation helped us create a smaller but representative version of the dataset. In this instance, the software Audacity was used to visually represent the data while still being able to listen to the audio, for quality reasons (such as spikes in amplitude that may be loud speech, or just a glitch/unintentional sounds from recording). I think there were limited opportunities for us to visualize our data, since we worked specifically to identify speech.
+  
+  
+  Visualising our data didnt seem to have a lot of value, since we were working to identify speech/conversation in audio files. The waveform for speech will look like any other waveform (or spectrogram, MFCC, etc) to me, as humans can't interpret this type of data from a visualisation.
   
 </details>
 
