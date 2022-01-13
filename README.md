@@ -229,7 +229,7 @@ All of these techniques mentioned above were relevant in our Dialogue project, w
 <details>
 <summary> 5.2 Data Cleansing</summary>
   
-  Some of the data cleansing I did can be found in this notebook, in block [6]: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/dataset%20incl%20neg%20data.ipynb
+  Some of the data cleansing I did can be found in this notebook, specifically in block [6] (but also in the blocks leading up to it): https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/dataset%20incl%20neg%20data.ipynb
  Here, I filter out some specific columns (the ones that will be of use to us) from the 'negativedf' dataframe (this dataframe contains the lables for all negative samples). Afterwards, I concatenate this dataframe with our positive data labels, resulting in a cleaned up version of the negative labels being concatenated to the positive labels.  
   
   I also did some data transformation by overlapping background noises on top of speech. The file I created through this transformation process came to be used a lot, and referred to (internally) as the 'difficult' data set, which we ran through the first model to evaluate its tolerance to speech with overlapping noise. This step was taken again at the end of the project, but then I also amplified the background noises overlaid by 20db, making the dataset even harder for the algorithm. We used this file for evaluation right at the end of the project, and the accuracy from the algorithm (speech detection model) was reduced by around 5%.
