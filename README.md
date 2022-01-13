@@ -220,7 +220,7 @@ All of these techniques mentioned above were relevant in our Dialogue project, w
 
 
 <h2> 5. Data Preprocessing </h2>  
-Since data preprocessing is a very central part of data science, I wanted to get very familiar on it. Since data preprocessing can translate to other instances than data science, for instance when working with databases, I think it's a very valuable skill to have in ICT.
+Since data preprocessing is a very central part of data science, I wanted to get very familiar with it. Since data preprocessing can translate to other instances than data science, for instance when working with databases, I think it's a very valuable skill to have in ICT. 
 
 <details>
 <summary> 5.1 Data Exploration</summary>
