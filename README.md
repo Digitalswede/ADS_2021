@@ -140,7 +140,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 3.2 Configuring a Model</summary>
-  Early on, I managed to train and get results from a neural network. The code can be found here, and contains all steps (including training and fitting on test data): <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br/>
+  Early on, I managed to train and get results from a neural network. The code can be found here, and contains all steps (including training and fitting on test data): <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.ipynb <br/>
 My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working. As you can see, it is an old version since it uses images for input data. A lot of the configuration was changed from the source code, which I found online, in order to fit our data & project. <br/>
   
   I also configured a simple Logistic Regression model early in the course as a first test of machine learning models, using one of the example notebooks provided as the foundation. This file is available here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/southpark_test.py
