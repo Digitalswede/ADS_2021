@@ -300,29 +300,29 @@ In this section, my participation in presentations and our paper is highlighted.
   The presentations where I partook are the following:
   
   External Presentation:
-  - #1 (helped create presentation, gave the presentation together with the rest of the group) 
+  - #1 (helped create presentation, gave the presentation together with the rest of the group) Link: 
  https://docs.google.com/presentation/d/1WzA2z_zZoB8E06DbU7IOXA3dTB0pueHfBE-lGYLRYFo/edit?usp=sharing
   
-  - #2 (created presentation, gave the presentation together with 1 other member)
+  - #2 (created presentation, gave the presentation together with 1 other member) Link: 
  https://docs.google.com/presentation/d/1Fnr-VwnlhEAV4MfSd_qkfz4Y037spj2Oze1CbTboRnk/edit?usp=sharing
   
-  - #3 (created presentation, gave the presentation together with 1 other member)
- https://docs.google.com/presentation/d/1Qa2tInYbkeKVogRuD2QW5RtgNNprSvm9igteMjBUF98/edit?usp=sharing
+  - #3 (created presentation, gave the presentation together with 1 other member) Link: 
+  https://docs.google.com/presentation/d/1Qa2tInYbkeKVogRuD2QW5RtgNNprSvm9igteMjBUF98/edit?usp=sharing
   
   Internal Presentation: 
-  - #2 (created presentation, gave the presentation together with 1 other member)
+  - #2 (created presentation, gave the presentation together with 1 other member) Link: 
  https://docs.google.com/presentation/d/1_keYMeNEbK_fAQeNPD3XL43IEjjmxnUrA34O2uwElBM/edit?usp=sharing
   
-  - #4 (created presentation, gave the presentation together with 1 other member)
+  - #4 (created presentation, gave the presentation together with 1 other member) Link: 
  https://docs.google.com/presentation/d/1L6V4IOJGoSOLaBzIkpkVP5yjDJnyrdpfO3Z7ShREUGc/edit?usp=sharing
   
-  - #5 (created presentation, gave the presentation together with 1 other member)
+  - #5 (created presentation, gave the presentation together with 1 other member) Link: 
  https://docs.google.com/presentation/d/1WMZRljw-xfCwXkREjLg8I2kBEnpXSI8PTJXbNT495Tk/edit?usp=sharing
   
-  - #8 (gave the presentation together with 2 others)
+  - #8 (gave the presentation together with 2 others) Link: 
  https://docs.google.com/presentation/d/1qeseUZOnkUxhORb8CgT7LHFs-fQxVFHC97wmPpdcORE/edit?usp=sharing
   
-  - #9 (created the presentation) 
+  - #9 (created the presentation) Link: 
  https://docs.google.com/presentation/d/16tDMOjCHzYoLDF_oaJwkUJdtfWoDrfdb3Ppa9fctSog/edit?usp=sharing
 
   
