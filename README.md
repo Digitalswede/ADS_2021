@@ -134,12 +134,12 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 3.1 Selecting a Model</summary>
-  The decision to use convolutional neural networks was taken early on, and it was very much a group decision. In order to get the best results, we argued that spending a lot of time 'perfecting' one method (we decided on CNN) will lead to better results than spending the same amount of time trying out different models. We looked at literature, such as Ashar, Bhatti and Mushtaq (2020) that use CNNs with MFCCs specifically. This also meant that, since CNN's are able to learn features based on data, we did not have to do much feature extraction/selection. In retrospect, I think the decision to use CNNs was the right thing, but exploring other models would have been interesting, too.
+  The decision to use convolutional neural networks was taken early on, and it was very much a group decision. In order to get the best results, we argued that spending a lot of time 'perfecting' one method (we decided on CNN) will lead to better results than spending the same amount of time trying out different models. Also, following the no free lunch theorem, there is no optimal solution we had to look for. It was up to us to create something good enough for the project. We looked at literature, such as Ashar, Bhatti and Mushtaq (2020) that use CNNs with MFCCs specifically. This also meant that, since CNN's are able to learn features based on data, we did not have to do much feature extraction/selection. In retrospect, I think the decision to use CNNs was the right thing, but exploring other models would have been interesting, too. 
 </details>
 
 <details>
 <summary> 3.2 Configuring a Model</summary>
-  Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here: <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br/>
+  Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here, and contains all steps (including training and fitting on test data): <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br/>
 My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working. As you can see, it is an old version since it uses images for input data. <br/>
   
   I also configured a simple Logistic Regression model early in the course as a first test of machine learning models, using one of the example notebooks provided as the foundation. This file is available here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/southpark_test.py
@@ -147,7 +147,8 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 <details>
 <summary> 3.3 Training a Model</summary>
-  The models used in our project were trained 
+  The models I trained was the same as in 3.2, training happens specifically in block [5]. Link: <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br/>
+  When training, the model, data, loss function and optimizer are passed to the training function. Model.train is used to initiate the training of the model, with the chosen training data. 
   
 </details>
 
