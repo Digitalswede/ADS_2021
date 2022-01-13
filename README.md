@@ -243,7 +243,7 @@ Some of my work on data prep can be found in this notebook: https://github.com/D
   
 After the dataloader for images ended up being scrapped due to new requirements, Leander and I created a new version, which was used for the remainder of the project.
 It can be found here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/make%20npy%20array%20of%20audio.ipynb
-For that notebook, I would estimate my contribution is around 30-40%.
+Leander and I made equal contributions to the file.
   
 Luckily we didn't seem to be impacted by outliers or missing values in our data, our results were high enough without accounting for that. As we created the datasets ourselves, we were confident in that data was consistent and uniform. Since we were working with audio data though, this was hard to prove. We also did not find many useful strategies for managing outliers in audio, if they even existed in our dataset in the first place.
   
