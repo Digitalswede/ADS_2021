@@ -188,9 +188,9 @@ My contribution: All of what you see in the notebook, some of the values were ch
 <summary> 3.5 Visualising the outcome of a model</summary>
   In terms of visual outcomes, towards the end of the project we made some good progress. Until that point, there wasn't much reason to visualize the outcomes since they were highly likely to change. The most prominent visual outcomes of our models are the confusion matrix described in 3.4, along with some handcrafted visualisations that represent the speech detection from the first model. In the visualization that we used, the value is 1 when a voice is detected, and 0 when a voice is not detected. This can look like this:
  
-    <details> <summary> Image of Voice Detection Visulisation </summary>
+ <details> <summary> Image of Voice Detection Visulisation </summary>
   
- ![GitHub Pages](./images/voicedetection_yesno.png)
+ ![GitHub Pages](./images/voicedetection_yesno.jpg)
   
  </details>
   
