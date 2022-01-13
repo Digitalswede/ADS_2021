@@ -13,6 +13,7 @@ A big thank you to the rest of Team Dialogue, and thanks to to Jeroen, Tony, Ruu
 
 <h2> 1. Reflection and evaluation </h2>
  In this chapter I explain the project from a evaluating perspective, and give context to these perspectives through the STARR method. The chapter is divided up in three parts, self reflection, reflection on learning goals, and group reflection.<br>
+ <br>
  
 <details>
 <summary> 1.1 Reflection on own contribution to the project </summary>
@@ -66,7 +67,8 @@ A big thank you to the rest of Team Dialogue, and thanks to to Jeroen, Tony, Ruu
 
 
 <h2> 2. Research Project </h2>
-In this chapter I go over the work which relates to the research we did, and how we performed it. It contains information about the results & early stages of our research paper and information about how Scrum was applied to this project, as well as how we planned the project.  
+In this chapter I go over the work which relates to the research we did, and how we performed it. It contains information about the results & early stages of our research paper and information about how Scrum was applied to this project, as well as how we planned the project.  <br>
+<br>
 
 <details>
 <summary> 2.1 Task Definition</summary>
@@ -136,6 +138,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <h2> 3. Predictive Analysis </h2>
 In this chapter, my contributions in model selection, configuration, training and evaluations are shown. This is an area that I wished I spent more time in, since I enjoyed it very much and found it interesting. However, the project progressed at a faster rate than me fully understanding the syntax we used. <br>
+<br>
 
 <details>
 <summary> 3.1 Selecting a Model</summary>
@@ -171,7 +174,8 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 
 <h2> 4. Domain Knowledge </h2>  
-This chapter contains information about the domain in which we worked. It mostly relates to audio signal processing from a machine learning perspective. I found this domain very interesting, as I had no previous experience in working with audio, nor working with applied machine learning and they were both very intricate. The domain is mostly explained from a perspective of our project group.<br>
+This chapter contains information about the domain in which we worked. It mostly relates to audio signal processing from a machine learning perspective. I found this domain very interesting, as I had no previous experience in working with audio, nor working with applied machine learning and they were both very intricate. The domain is mostly explained from a perspective of our project group. <br>
+<br>
 
 <details>
 <summary> 4.1 Introduction to the subject field </summary>
@@ -220,7 +224,9 @@ All of these techniques mentioned above were relevant in our Dialogue project, w
 
 
 <h2> 5. Data Preprocessing </h2>  
-Data preprocessing is a very central part of data science, and this chapter will discuss my experience with it. Since data preprocessing can translate to other instances than data science, for instance when working with databases, I think it's a very valuable skill to have in ICT and I had positive experiences with it.<br>
+Data preprocessing is a very central part of data science, and this chapter will discuss my experience with it. Since data preprocessing can translate to other instances than data science, for instance when working with databases, I think it's a very valuable skill to have in ICT and I had positive experiences with it. <br>
+<br>
+
 
 <details>
 <summary> 5.1 Data Exploration</summary>
