@@ -205,6 +205,7 @@ All of these techniques mentioned above were relevant in our Dialogue project, w
   - Loss function: A function that is able to determine how the performance of a model relates to the 'true values' of a dataset used. 
   - Neural Network: A type of algorithm that works by using layers containing nodes (also called neurons) that recieve and pass on weighted data in order to make predictions on datasets. Needs to be properly trained in order to work.
   - Outliers: Data points that differ a lot from other data in the set.
+  - Regression: A method of estimating how a target variable relates to chosen features. The classic example is how the sales prices of houses are related to their size in square footage.
   
 </details>
 
