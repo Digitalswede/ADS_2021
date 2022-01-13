@@ -181,7 +181,7 @@ All of these techniques mentioned above were relevant in our Dialogue project, w
 
 <details>
 <summary> 4.2 Literature Research </summary>
-  I found several pieces of relevant literature during this minor. One of the more interesting ones is Udin *et al.* (2018) The topic for their study is Ambient Sensors for Elderly Care, and this study looks at results and data from other works and summarizes their findings. This helped us a lot since in this study, since it gave a good overview of other studies with the same end goal (determine quality of life based on household environment data). From studying this paper, it became apparent that using sound data for the purpose of recognizing daily activity is not as common as some other methods, such as video or infrared sensors. From the study of Udin *et al.* (2018), I found other interesting studies. Such as Vacher *et al.* (2011), a study with some similarities to ours, such as the fact that they are also processing audio data in a household setting for assisted care purposes. Their study mainly relies on audio technologies in smart homes. However, it does not relate to dementia patients, only elderly to some degree.
+  I found several pieces of relevant literature during this minor. One of the more interesting ones is Udin *et al.* (2018) The topic for their study is Ambient Sensors for Elderly Care, and this study looks at results and data from other works and summarizes their findings. This helped us a lot since in this study, since it gave a good overview of other studies with the same end goal (determine quality of life based on household environment data). From studying this paper, it became apparent that using sound data for the purpose of recognizing daily activity is not as common as some other methods, such as video or infrared sensors. From the study of Udin *et al.* (2018), I found other interesting studies. Such as Vacher *et al.* (2011), a study with some similarities to ours, such as the fact that they are also processing audio data in a household setting for assisted care purposes. Their study mainly relies on audio technologies in smart homes. However, it does not relate to dementia patients, only elderly to some degree. This was used to establish some of the background in the paper and give perspective for our research, however the technical details (such as the model architecture of a CNN tuned for voice detection) we had to look for in other papers, such as Salehghaffari (2018). In that paper, we found inspiration for parameters like learning rates and epochs for our CNNs.
 </details>
 
 
@@ -329,5 +329,9 @@ M. Vacher, D. Istrate, F. Portet, T. Joubert, and T. Chevalier, (2011), The swee
 
 
 Z. Uddin, W. Khaksar, and J. Torresen, (2018), Ambient Sensors for Elderly Care and Independent Living: A Survey. Sensors 18, no. 7: 2027. https://doi.org/10.3390/s18072027
+
+
+
+H. Salehghaffari, (2018), Speaker verification using convolutional neural networks. arXiv preprint arXiv:1803.05427.
   
 
