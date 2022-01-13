@@ -12,7 +12,7 @@ The reader's guide is numbered for easier reading. <br>
 A big thank you to the rest of Team Dialogue, and thanks to to Jeroen, Tony, Ruud and Hani for all your advice in the past six months.
 
 <h2> 1. Reflection and evaluation </h2>
- In this chapter I explain the project from a evaluating perspective, and give context to these perspectives through the STARR method. The chapter is divided up in three parts, self reflection, reflection on learning goals, and group reflection.
+ In this chapter I explain the project from a evaluating perspective, and give context to these perspectives through the STARR method. The chapter is divided up in three parts, self reflection, reflection on learning goals, and group reflection.<br>
  
 <details>
 <summary> 1.1 Reflection on own contribution to the project </summary>
