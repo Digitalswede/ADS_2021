@@ -68,22 +68,23 @@ A big thank you to the rest of Team Dialogue, and thanks to to Jeroen, Tony, Ruu
 <details>
 <summary> 2.1 Task Definition</summary>
   
+  
 My contribution: I gave feedback and discussed with the group members (David & Maria, who had created the initial draft) about which research questions we should keep, and which questions we should move forward with. Here is a link to a very early draft of our paper with the questions still in there, the "answers" to each question on page 2 is typed by me and was used for reference later on in the project. 
   https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing <br>
   
   I was mostly working on our datasets when our first drafts of the research paper was created, so as soon as I finished work on the dataset I helped out with the questions. Below are some examples of questions that made it, and those that did not (along with our reasoning):
   
  - How can we detect multiple voices from audio data? <br>
-This question was central in the project, since the context for our project consists of defining when conversation is happening. Detecting multiple voices makes the difference between a monologue and an actual conversation and is very important for the end result.
+This question was central in the project, since the context for our project consists of defining when conversation is happening. Detecting multiple voices makes the difference between a monologue and an actual conversation and is very important for the end result. The solution to this question came to be a separate model which uses MFCC data to try and compare speech from different speakers, to identify whether a speaker is the same or different.
   
  - Which characteristics make a conversation?<br>
-This question has a lot to do with the one above it. We ultimately decided that a minimum grade of participation from at least two speakers is necessary to constitute a conversation. We had to discuss this with the problem owner several times, as we didn't want to make assumptions ourselves. If we simply regarded any dialogue between people regardless of speech duration per speaker, this could have given different results.
+This question was discussed a lot internally. We ultimately decided that the answer to this question is not up to us, and that our problem owner along with "dementia coaches" / healthcare staff can specify what exactly a conversation is in the context of dementia patients. We had to discuss this with the problem owner several times, as we didn't want to make assumptions ourselves, but ultimately we could not identify these characteristics - we also ended up not needing to, since we removed it from our scope.
   
  - Can we detect if the dementia patient is speaking on the phone?<br>
-This question was considered to be out of scope. There are probably easier ways to determine when an elderly person is using their phone than only listening to them speak, and we wanted to focus on specifically conversation in a physical setting.
+This question was considered to be out of scope. There are probably easier ways to determine when an elderly person is using their phone than only listening to them speak, and we wanted to focus on specifically conversation in a physical setting. That said, assuming the incoming audio from the phone is picked up by the microphone, there is a chance it can be detected. But we did not have enough datasets to try this in practice.
 
 - Can we detect if the person speaking is physically present?<br>
-This question was ultimately decided to be out of scope, but it did come up for discussion a few times. Essentially, a voice being played from a speaker will most likely not have the same range as a human speaking. This makes it possible - in theory, we never got far enough to actually work on it - to determine when a voice is "fake" or "real". This is a suitable area for further research in my opinion, since we never had time to try it out the results would be very interesting.
+This question relates to the question above, and was ultimately also decided to be out of scope. It did come up for discussion more than a few times. Essentially, a voice being played from a speaker will most likely not have the same frequency range as a human speaking. This makes it possible - in theory, we never got far enough to actually work on it - to determine when a voice is "fake" or "real". This is a suitable area for further research in my opinion, since we never had time to try it out the results would be very interesting.
 </details>
 
 
@@ -99,7 +100,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
   - Since the model for speaker differentation we used came to be quite complex, it would be interesting to see new projects aim to identify the patient's voice as a profile to compare other voices against. Samples might be collected over a period of time and eventually could be used to compare all detected speech to the patient themselves, instead of always comparing every segment with all voices therein. This might result in higher accuracy for determining whether or not it is the patient who is speaking.
   
-  - It would have been interesting to see how the algorithm performs on conversations being played from a speaker, such as a TV or cellphone. Since sound being played from speaker generally has less information than speech from a human being, it might decrease the performance of the model. However, a model trained to detect these 'artifical' sounds might be very useful. It could, for instance, identify when a dementia patient is talking to their TV (a sign of dementia progressing)
+  - It would have been interesting to see how the algorithm performs on conversations being played from a speaker, such as a TV or cellphone. Since sound being played from speaker generally has less frequench ranged than speech from a human being (as discussed in 2.1), it might decrease the performance of the model. However, a model trained to detect these 'artifical' sounds might be very useful. Such a model could, for instance, identify when a dementia patient is talking to their TV (a sign of dementia progressing).
 </details>
   
   
@@ -124,7 +125,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
   A screenshot from Taiga with almost everyone's activity: https://i.imgur.com/Q91fnWq.png (It's difficult to get a really descriptive image)
   
-  Maria Hoendermis, one of our groupmembers, was very helpful in the planning process and did most of the work in communicating with teachers to set up meetings for the rest of the group.
+  Maria Hoendermis, one of our groupmembers, was very helpful in the planning process and communicated a lot with teachers to set up meetings for the group.
   
   
 </details>
@@ -134,13 +135,13 @@ My contribution: For the paper, I gave some ideas for future work with our proto
 
 <details>
 <summary> 3.1 Selecting a Model</summary>
-  The decision to use convolutional neural networks was taken early on, and it was very much a group decision. In order to get the best results, we argued that spending a lot of time 'perfecting' one method (we decided on CNN) will lead to better results than spending the same amount of time trying out different models. Also, following the no free lunch theorem, there is no optimal solution we had to look for. It was up to us to create something good enough for the project. We looked at literature, such as Ashar, Bhatti and Mushtaq (2020) that use CNNs with MFCCs specifically. This also meant that, since CNN's are able to learn features based on data, we did not have to do much feature extraction/selection. In retrospect, I think the decision to use CNNs was the right thing, but exploring other models would have been interesting, too. 
+  The decision to use convolutional neural networks was taken early on, and it was very much a group decision. In order to get the best results, we argued that spending a lot of time 'perfecting' one method (we decided on CNN) will lead to better results than spending the same amount of time trying out different models. Also, following the no free lunch theorem, there is no 'optimal solution' we had to look for, all models can perform well in any situation. It was up to us to create something good enough for the project. We looked at literature, such as Ashar, Bhatti and Mushtaq (2020) that use CNNs with MFCCs in combination specifically. This also meant that, since CNN's are able to learn features based on data, we did not have to do much feature extraction/selection. In retrospect, I think the decision to use CNNs was the right thing, but exploring other models would have been very interesting, too. 
 </details>
 
 <details>
 <summary> 3.2 Configuring a Model</summary>
-  Early on, i configured a neural network (with some help from Jeroen in handling errors). The code can be found here, and contains all steps (including training and fitting on test data): <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br/>
-My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working. As you can see, it is an old version since it uses images for input data. <br/>
+  Early on, I managed to train and get results from a neural network. The code can be found here, and contains all steps (including training and fitting on test data): <br> https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/early_neural_network.py <br/>
+My contribution: All of what you see in the notebook, some of the values were changed in accordance with feedback from Jeroen to get things working. As you can see, it is an old version since it uses images for input data. A lot of the configuration was changed from the source code, which I found online, in order to fit our data & project. <br/>
   
   I also configured a simple Logistic Regression model early in the course as a first test of machine learning models, using one of the example notebooks provided as the foundation. This file is available here: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/southpark_test.py
 </details>
@@ -260,7 +261,7 @@ Luckily we didn't seem to be impacted by outliers or missing values in our data,
  - Librispeech, a dataset containing speaker-labled audiobook data, came to be very useful in the project. Since it does not contain (noticeable) noise, this dataset was primarily used for speaker differentiation. This was convineant as all speakers in the dataset are labled. Since this dataset was at 16KHz, we upsampled it to fit the other datasets at 44.1KHz. 
   
   
- - CHIME-Home was used for some negative samples, as it partly contained non-speech audio. This dataset was also at a different sampling rate, and had to be upscaled in order to keep our data integrity as we were not sure how different sampling rates would affect the model.
+ - CHIME-Home was used for some negative samples, as it partly contained non-speech audio. This dataset was also at a different sampling rate, and had to be upscaled in order to keep our data integrity as we did not want our data integrity comprimised due to irregular data.
   
   
   
@@ -313,7 +314,7 @@ This is one area where I feel like I contributed a lot, and I hope the portfolio
   
  I also helped other group members writing the paper by giving constructive feedback, always being mindful of other people's work and not criticizing. I ended up making quite a few corrections to the paper in most sections, an effort that I hope changed our paper for the better since I feel it's important to deliver a strong paper. 
   
-  It is difficult to give examples here, since writing the paper was a continuous process and quite hard to measure in terms of contribution. 
+  It is difficult to give examples here, since writing the paper was a continuous process and quite hard to measure in terms of contribution. In my eyes, all group members pulled their weight in this department.
   
   Here is a link to our finished paper: https://drive.google.com/file/d/1tm8MRCr17ix6i32tT9nXcVKYS6k9HhKh/view?usp=sharing
 </details>
