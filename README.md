@@ -99,7 +99,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
   - Since the model for speaker differentation we used came to be quite complex, it would be interesting to see new projects aim to identify the patient's voice as a profile to compare other voices against. Samples might be collected over a period of time and eventually could be used to compare all detected speech to the patient themselves, instead of always comparing every segment with all voices therein. This might result in higher accuracy for determining whether or not it is the patient who is speaking.
   
-  - 
+  - It would have been interesting to see how the algorithm performs on conversations being played from a speaker, such as a TV or cellphone. Since sound being played from speaker generally has less information than speech from a human being, it might decrease the performance of the model. However, a model trained to detect these 'artifical' sounds might be very useful. It could, for instance, identify when a dementia patient is talking to their TV (a sign of dementia progressing)
 </details>
   
   
@@ -119,7 +119,7 @@ My contribution: For the paper, I gave some ideas for future work with our proto
   
   
   
-  In our group, efficiency was quite important, and led to us having daily stand up meetings so we could all keep up with the progress happening. This worked very well, and I attended these meetings to increase our group cohesion and keep the others informed about my part in the project. All in all, Scrum as a method worked very well for us in the context that we applied it, and all group members were in charge of project planning to some degree, as the role of Scrummaster rotated in our group. In my eyes, everyone did this job very well, and tasks were evenly spread out among everyone.<br>
+  In our group, efficiency was quite important, and led to us having daily stand up meetings so we could all keep up with the progress happening. This worked very well, and I attended these meetings to increase our group cohesion and keep the others informed about my part in the project. All in all, Scrum as a method worked very well for us in the context that we applied it, and all group members were in charge of project planning to some degree, as the role of Scrummaster rotated in our group. In my eyes, everyone did this job very well, and tasks were evenly spread out among everyone. Also as a part of Scrum, we used sprint retrospectives when finishing sprints. These really helped us develop as a group, as we evaluted factors like communication and workload distribution in order to improve. This gave good results, and after only 2-3 retrospectives our communication had improved a lot, a big benefit early on in the project. <br>
   
   
   A screenshot from Taiga with almost everyone's activity: https://i.imgur.com/Q91fnWq.png (It's difficult to get a really descriptive image)
