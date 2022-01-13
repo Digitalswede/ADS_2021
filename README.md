@@ -167,10 +167,11 @@ My contribution: All of what you see in the notebook, some of the values were ch
 
 <details>
 <summary> 4.1 Introduction to the subject field </summary>
-  As we worked with the Smart Teddy project together with our problem owner Hani, our subject field came to be audio signal processing. This meant we had to use recordings of audio as input to an algorithm in order to make predictions on the audio itself. In order to do this, audio data is transformed into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition. This process can be seen here, in block [5]: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/make%20npy%20array%20of%20audio.ipynb <br>
+  As we worked with the Smart Teddy project together with our problem owner Hani, our subject field came to be audio signal processing. The end goal for us was an algorithm able to detect conversation based on sound files, to help monitor dementia patients. This meant we had to use recordings of audio as input to an algorithm in order to make predictions on the audio itself. In order to do this, audio data is transformed into MFCC data, since MFCCs are good at representing a lot of features useful in voice recognition. This process can be seen here, in block [5]: https://github.com/Digitalswede/ADS_2021/blob/main/codesamples/make%20npy%20array%20of%20audio.ipynb <br>
   
   
 Sound data can also be represented with spectrograms, and other image representations of sound (such as oscillograms/waveforms). However, we achieved the best results working with MFCCs. The sample rate of recordings is also an important factor to consider, since it is a measure of how many samples are recorded over a period of time. A high sample rate will contain a lot of samples, but might be computationally expensive or contain unnecessarily many samples. While a low sample rate has some information loss, but can be faster to process.
+  
   
 All of these techniques mentioned above were relevant in our Dialogue project, which is a part of the bigger Smart Teddy Bear project. This is a very interesting domain, as it contains a lot of different problems. Not only did we need to create a functional algorithm to classify speech, we also needed to work with and get a deep understanding of audio data, and relate all of our work to the healthcare domain for dementia patients. 
   
